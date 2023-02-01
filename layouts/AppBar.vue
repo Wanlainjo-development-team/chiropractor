@@ -1,3 +1,3 @@
 <template>
-  <v-app-bar title="Application"></v-app-bar>
+  <v-app-bar title="Chiropractor"></v-app-bar>
 </template>
