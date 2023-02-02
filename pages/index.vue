@@ -1,15 +1,7 @@
 <template>
-  <p>
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe ut aut explicabo ad, nam molestiae aperiam qui nesciunt neque perferendis labore, repellat excepturi necessitatibus corrupti sequi. Quasi libero neque totam!
-  </p>
+  <Header />
 </template>
 
-<script>
-export default {
-
-}
+<script setup>
+import Header from "~~/components/home/header.vue";
 </script>
-
-<style>
-
-</style>
