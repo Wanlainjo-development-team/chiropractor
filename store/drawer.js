@@ -7,32 +7,110 @@ export const useDraerStore = defineStore('websiteDraer', {
             {
                 title: 'Home',
                 icon: 'mdi-home',
-                to: '/'
+                to: '/',
+                menu: false
             },
             {
-                title: 'About Us',
+                title: 'meet your chiropractors',
                 icon: 'mdi-account',
-                to: '/about'
+                to: '/a',
+                menu: false
             },
             {
-                title: 'Courses',
+                title: 'Services',
                 icon: 'mdi-account-school',
-                to: '/courses'
+                to: '/b',
+                menu: true,
+                subMenus: [
+                    {
+                        title: 'CHIROPRACTIC CARE',
+                        routes: [
+                            {
+                                title: 'Back Pain Treatment',
+                                to: ''
+                            },
+                            {
+                                title: 'Neck Pain',
+                                to: ''
+                            },
+                            {
+                                title: 'Headache Treatment',
+                                to: ''
+                            },
+                            {
+                                title: 'Sciatica',
+                                to: ''
+                            },
+                            {
+                                title: 'Shoulder Pain Treatment',
+                                to: ''
+                            },
+                            {
+                                title: 'Lower Extremity Pain',
+                                to: ''
+                            },
+                            {
+                                title: 'Upper Extremity Pain',
+                                to: ''
+                            },
+                            {
+                                title: 'Car Accident Injuries',
+                                to: ''
+                            },
+                        ]
+                    },
+                    {
+                        title: 'OTHER SERVICES',
+                        routes: [
+                            {
+                                title: 'Acupuncture',
+                                to: ''
+                            },
+                            {
+                                title: 'Massage Therapy',
+                                to: ''
+                            },
+                            {
+                                title: 'Rehabilitation',
+                                to: ''
+                            },
+                            {
+                                title: 'Spinal Decompression',
+                                to: ''
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                title: 'Testimonials',
+                icon: 'mdi-phone',
+                to: '/c',
+                menu: false
+            },
+            {
+                title: 'Blog',
+                icon: 'mdi-party-popper',
+                to: '/d',
+                menu: false
+            },
+            {
+                title: 'Payments',
+                icon: 'mdi-account-group',
+                to: '/e',
+                menu: false
+            },
+            {
+                title: 'Forms',
+                icon: 'mdi-account-group',
+                to: '/e',
+                menu: false
             },
             {
                 title: 'Contact',
-                icon: 'mdi-phone',
-                to: '/contact'
-            },
-            {
-                title: 'Events',
-                icon: 'mdi-party-popper',
-                to: '/events'
-            },
-            {
-                title: 'Communities',
                 icon: 'mdi-account-group',
-                to: '/community'
+                to: '/e',
+                menu: false
             }
         ]
     })
