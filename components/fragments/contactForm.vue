@@ -55,58 +55,30 @@
                 />
               </v-col>
               <v-col cols="12" sm="6">
-                <v-select
+                <v-text-field
                   density="compact"
                   variant="outlined"
-                  label="Select Treatment"
+                  label="State Treatment"
                   hide-details
                   color="blue"
-                  :items="[
-                    'Low Back Pain',
-                    'Sciatica',
-                    'Neck Pain',
-                    'Fibromyalgia',
-                    'Headaches',
-                    'Work Accident Injuries',
-                    'Extremity Pain',
-                    'Pinched Nerves',
-                    'Car Accident Injuries',
-                    'Herniated or Slipped Disc Pain',
-                    'Migraines',
-                    'TMJ Disorders',
-                    'Neuropathy',
-                    'Pregnancy related back pain',
-                    'Sports injuries',
-                    'Arm pain and numbness',
-                    'Childhood injuries including birth trauma colic and earaches',
-                    'Other',
-                  ]"
                 />
               </v-col>
               <v-col cols="12" sm="6">
-                <v-select
+                <v-text-field
                   density="compact"
                   variant="outlined"
-                  label="Preferred Day"
+                  label="Preferred Date"
                   hide-details
                   color="blue"
-                  :items="[
-                    'Monday',
-                    'Tuesday',
-                    'Wednesday',
-                    'Thursday',
-                    'Friday',
-                  ]"
                 />
               </v-col>
               <v-col cols="12" sm="6">
-                <v-select
+                <v-text-field
                   density="compact"
                   variant="outlined"
-                  label="Preferred Time Of Day"
+                  label="Preferred Time"
                   hide-details
                   color="blue"
-                  :items="['Morning', 'Afternoon']"
                 />
               </v-col>
             </v-row>
@@ -119,6 +91,3 @@
     </v-row>
   </v-container>
 </template>
-
-<script setup>
-</script>

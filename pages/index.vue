@@ -6,8 +6,8 @@
   <Section4 />
   <Section5 />
   <ContactForm />
-  <Section6 />
-  <Section7 />
+  <!-- <Section6 />
+  <Section7 /> -->
 </template>
 
 <script setup>
@@ -18,8 +18,8 @@ import Section3 from "~~/components/home/section3.vue";
 import Section4 from "~~/components/home/section4.vue";
 import Section5 from "~~/components/home/section5.vue";
 import ContactForm from "~~/components/fragments/contactForm.vue";
-import Section6 from "~~/components/home/section6.vue";
-import Section7 from "~~/components/home/section7.vue";
+// import Section6 from "~~/components/home/section6.vue";
+// import Section7 from "~~/components/home/section7.vue";
 </script>
 
 <style>

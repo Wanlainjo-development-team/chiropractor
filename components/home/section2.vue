@@ -15,7 +15,7 @@
               <v-btn icon color="blue" size="large" elevation="10">
                 <v-icon>mdi-play</v-icon>
 
-                <v-dialog
+                <!-- <v-dialog
                   v-model="dialog"
                   activator="parent"
                   width="500"
@@ -40,7 +40,7 @@
                       </v-btn>
                     </v-card-actions>
                   </v-card>
-                </v-dialog>
+                </v-dialog> -->
               </v-btn>
             </v-img>
           </v-card>
