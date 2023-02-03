@@ -39,7 +39,7 @@ const { name } = useDisplay();
 
 const drawer = useDraerStore();
 
-onBeforeMount(() => {
+const resetDrawer = () => {
   switch (name.value) {
     case "xs":
       return (drawer.drawer = false);
@@ -54,6 +54,14 @@ onBeforeMount(() => {
     case "xxl":
       return (drawer.drawer = false);
   }
+};
+
+onBeforeMount(() => {
+  resetDrawer()
+});
+
+onMounted(() => {
+  resetDrawer()
 });
 
 const location = computed(() => {

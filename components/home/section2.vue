@@ -1,7 +1,7 @@
 <template>
   <v-parallax
     src="https://res.cloudinary.com/rukkiecodes/image/upload/v1675309154/chriopractor/logo-circle-bg_oudvpl.png"
-    :height="height"
+    class="d-flex align-center justify-center"
   >
     <v-container class="mt-16 pt-0">
       <v-row justify="space-between">
@@ -123,7 +123,6 @@
 import { ref, computed } from "vue";
 import { useDisplay } from "vuetify";
 
-
 const dialog = ref(false);
 const { name } = useDisplay();
 
@@ -150,17 +149,17 @@ const links = ref([
 const height = computed(() => {
   switch (name.value) {
     case "xs":
-      return '100%';
+      return "100%";
     case "sm":
-      return '100%';
+      return "100%";
     case "md":
-      return '100%';
+      return "100%";
     case "lg":
-      return '100vh';
+      return "100vh";
     case "xl":
-      return '100vh';
+      return "100vh";
     case "xxl":
-      return '100vh';
+      return "100vh";
   }
 
   return undefined;
