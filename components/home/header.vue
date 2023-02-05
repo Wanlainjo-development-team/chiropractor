@@ -48,10 +48,10 @@
 
 <script setup>
 const items = [
-  "https://res.cloudinary.com/rukkiecodes/image/upload/v1675304373/chriopractor/image1_zzxvji.jpg",
-  "https://res.cloudinary.com/rukkiecodes/image/upload/v1675304370/chriopractor/image3_drbfmf.jpg",
-  "https://res.cloudinary.com/rukkiecodes/image/upload/v1675304362/chriopractor/image5_dqdc6w.jpg",
-  "https://res.cloudinary.com/rukkiecodes/image/upload/v1675304357/chriopractor/image2_j6umx7.jpg",
-  "https://res.cloudinary.com/rukkiecodes/image/upload/v1675304356/chriopractor/image4_nfash2.jpg",
+  "https://res.cloudinary.com/rukkiecodes/image/upload/v1675307248/chriopractor/image1_btfkx7.jpg",
+  "https://res.cloudinary.com/rukkiecodes/image/upload/v1675307248/chriopractor/image2_djl3ua.jpg",
+  "https://res.cloudinary.com/rukkiecodes/image/upload/v1675307249/chriopractor/image3_hpoaa8.jpg",
+  "https://res.cloudinary.com/rukkiecodes/image/upload/v1675307249/chriopractor/image4_kzobl3.jpg",
+  "https://res.cloudinary.com/rukkiecodes/image/upload/v1675307249/chriopractor/image5_qpwtgq.jpg",
 ];
 </script>
