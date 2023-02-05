@@ -6,9 +6,9 @@
     cycle
     interval="20000"
   >
-    <v-carousel-item v-for="(item, i) in items" :key="i">
+    <v-carousel-item>
       <v-parallax
-        :src="item"
+        src="https://res.cloudinary.com/rukkiecodes/image/upload/v1675304373/chriopractor/image1_zzxvji.jpg"
         lazy-src="https://res.cloudinary.com/rukkiecodes/image/upload/v1675307350/chriopractor/placeholder_lnnfrn.jpg"
         gradient="to bottom, rgba(0,0,0,.6), rgba(0,0,0,.6)"
       >
@@ -49,7 +49,7 @@
 <script setup>
 import { ref } from "vue";
 const items = ref([
-  "https://res.cloudinary.com/rukkiecodes/image/upload/v1675304373/chriopractor/image1_zzxvji.jpg",
+  "https://res.cloudinary.com/rukkiecodes/image/upload/v1675304373/chriopractor/image1_zzxvji.jpg", //
   "https://res.cloudinary.com/rukkiecodes/image/upload/v1675304370/chriopractor/image3_drbfmf.jpg",
   "https://res.cloudinary.com/rukkiecodes/image/upload/v1675304362/chriopractor/image5_dqdc6w.jpg",
   "https://res.cloudinary.com/rukkiecodes/image/upload/v1675304357/chriopractor/image2_j6umx7.jpg",
