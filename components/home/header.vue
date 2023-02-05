@@ -9,7 +9,7 @@
     <v-carousel-item v-for="(item, i) in items" :key="i">
       <v-parallax
         :src="item"
-        :lazy-src="item"
+        lazy-src="https://res.cloudinary.com/rukkiecodes/image/upload/v1675307350/chriopractor/placeholder_lnnfrn.jpg"
         gradient="to bottom, rgba(0,0,0,.6), rgba(0,0,0,.6)"
       >
         <v-container class="pa-0">
