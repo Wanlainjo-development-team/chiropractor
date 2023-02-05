@@ -9,6 +9,7 @@
     <v-carousel-item>
       <v-img
         cover
+        eager
         src="https://res.cloudinary.com/rukkiecodes/image/upload/v1675304373/chriopractor/image1_zzxvji.jpg"
         lazy-src="https://res.cloudinary.com/rukkiecodes/image/upload/v1675307350/chriopractor/placeholder_lnnfrn.jpg"
         gradient="to bottom, rgba(0,0,0,.6), rgba(0,0,0,.6)"
