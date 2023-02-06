@@ -58,7 +58,7 @@
         </v-card>
       </v-col>
       <v-col cols="12" sm="7">
-        <ContactForm />
+        <ContactForm id="contact" />
         <SendMessage />
       </v-col>
     </v-row>

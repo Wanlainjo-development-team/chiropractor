@@ -32,7 +32,7 @@
                 color="blue"
                 flat
                 class="mt-4 text-body-2 font-weight-bold text-capitalize"
-                to="/contact"
+                href="#contact"
                 >Make an appointment</v-btn
               >
             </v-card-text>
