@@ -5,7 +5,18 @@
   <Section3 />
   <Section4 />
   <Section5 />
-  <ContactForm />
+  <v-row>
+    <v-col cols="12" sm="5">
+      <v-parallax
+        cover
+        width="100%"
+        src="https://res.cloudinary.com/rukkiecodes/image/upload/v1675350855/chriopractor/room1-1_h3kdhe.jpg"
+      />
+    </v-col>
+    <v-col cols="12" sm="7">
+      <ContactForm />
+    </v-col>
+  </v-row>
   <Section6 />
   <Section7 />
 </template>
