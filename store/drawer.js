@@ -10,12 +10,12 @@ export const useDraerStore = defineStore('websiteDraer', {
                 to: '/',
                 menu: false
             },
-            // {
-            //     title: 'meet your chiropractors',
-            //     icon: 'mdi-account',
-            //     to: '/a',
-            //     menu: false
-            // },
+            {
+                title: 'meet your chiropractors',
+                icon: 'mdi-account',
+                to: '/chiropractorPage',
+                menu: false
+            },
             // {
             //     title: 'Services',
             //     icon: 'mdi-account-school',
