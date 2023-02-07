@@ -1,5 +1,5 @@
 <template>
-  <v-footer color="blue" dark>
+  <v-footer color="blue-darken-4" dark>
     <v-container class="my-16">
       <v-row justify="space-between">
         <v-col cols="12" sm="6">
