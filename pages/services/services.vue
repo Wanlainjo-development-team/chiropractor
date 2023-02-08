@@ -1,12 +1,7 @@
 <template>
   <Header />
   <v-app>
-    <v-navigation-drawer
-      color="#F9FAFA"
-      class="pa-4"
-      border="0"
-      width="300"
-    >
+    <v-navigation-drawer color="#F9FAFA" class="pa-4" border="0" width="300">
       <div v-for="(route, i) in routes" :key="i">
         <v-list density="compact">
           <v-list-item density="compact" class="rounded-lg" :to="route.to">
@@ -66,22 +61,22 @@ const routes = ref([
         title: "Sciatica",
         to: "/services/services/sciatica",
       },
-      // {
-      //   title: "Headache Treatment",
-      //   to: "/services/services/headacheTreatment",
-      // },
-      // {
-      //   title: "Lower Extremity Pain",
-      //   to: "/services/services/lowerExtremityPain",
-      // },
-      // {
-      //   title: "Upper Extremity Pain",
-      //   to: "/services/services/upperExtremityPain",
-      // },
-      // {
-      //   title: "Car Accident Injury",
-      //   to: "/services/services/carAccidentInjury",
-      // },
+      {
+        title: "Headache Treatment",
+        to: "/services/services/headacheTreatment",
+      },
+      {
+        title: "Lower Extremity Pain",
+        to: "/services/services/lowerExtremityPain",
+      },
+      {
+        title: "Upper Extremity Pain",
+        to: "/services/services/upperExtremityPain",
+      },
+      {
+        title: "Car Accident Injury",
+        to: "/services/services/carAccidentInjury",
+      },
     ],
   },
   // {

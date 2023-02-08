@@ -33,30 +33,26 @@ export const useDraerStore = defineStore('websiteDraer', {
                                 title: 'Neck Pain',
                                 to: '/services/services/neckPain'
                             },
-                            // {
-                            //     title: 'Headache Treatment',
-                            //     to: ''
-                            // },
+                            {
+                                title: 'Headache Treatment',
+                                to: '/services/services/headacheTreatment'
+                            },
                             {
                                 title: 'Sciatica',
                                 to: '/services/services/sciatica'
                             },
-                            // {
-                            //     title: 'Shoulder Pain Treatment',
-                            //     to: ''
-                            // },
-                            // {
-                            //     title: 'Lower Extremity Pain',
-                            //     to: ''
-                            // },
-                            // {
-                            //     title: 'Upper Extremity Pain',
-                            //     to: ''
-                            // },
-                            // {
-                            //     title: 'Car Accident Injuries',
-                            //     to: ''
-                            // },
+                            {
+                                title: 'Lower Extremity Pain',
+                                to: '/services/services/lowerExtremityPain'
+                            },
+                            {
+                                title: 'Upper Extremity Pain',
+                                to: '/services/services/upperExtremityPain'
+                            },
+                            {
+                                title: 'Car Accident Injuries',
+                                to: '/services/services/carAccidentInjury'
+                            },
                         ]
                     },
                     //     {
