@@ -62,10 +62,10 @@ const routes = ref([
         title: "Neck pain",
         to: "/services/services/neckPain",
       },
-      // {
-      //   title: "Sciatica",
-      //   to: "/services/services/sciatica",
-      // },
+      {
+        title: "Sciatica",
+        to: "/services/services/sciatica",
+      },
       // {
       //   title: "Headache Treatment",
       //   to: "/services/services/headacheTreatment",

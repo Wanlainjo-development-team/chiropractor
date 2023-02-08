@@ -53,7 +53,7 @@
             <v-row no-gutters>
               <v-col v-for="(item, i) in lists" :key="i" cols="12" sm="4" class="pa-0 bg-red">
                 <v-list density="compact">
-                  <v-list-item :value="item" active-color="primary">
+                  <v-list-item>
                     <template v-slot:prepend>
                       <v-icon>mdi-arrow-right-circle</v-icon>
                     </template>

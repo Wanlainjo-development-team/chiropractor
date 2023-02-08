@@ -37,10 +37,10 @@ export const useDraerStore = defineStore('websiteDraer', {
                             //     title: 'Headache Treatment',
                             //     to: ''
                             // },
-                            // {
-                            //     title: 'Sciatica',
-                            //     to: ''
-                            // },
+                            {
+                                title: 'Sciatica',
+                                to: '/services/services/sciatica'
+                            },
                             // {
                             //     title: 'Shoulder Pain Treatment',
                             //     to: ''
