@@ -21,66 +21,66 @@ export const useDraerStore = defineStore('websiteDraer', {
                 icon: 'mdi-account-school',
                 to: '/servicesPage',
                 menu: true,
-                // subMenus: [
-                //     {
-                //         title: 'CHIROPRACTIC CARE',
-                //         routes: [
-                //             {
-                //                 title: 'Back Pain Treatment',
-                //                 to: ''
-                //             },
-                //             {
-                //                 title: 'Neck Pain',
-                //                 to: ''
-                //             },
-                //             {
-                //                 title: 'Headache Treatment',
-                //                 to: ''
-                //             },
-                //             {
-                //                 title: 'Sciatica',
-                //                 to: ''
-                //             },
-                //             {
-                //                 title: 'Shoulder Pain Treatment',
-                //                 to: ''
-                //             },
-                //             {
-                //                 title: 'Lower Extremity Pain',
-                //                 to: ''
-                //             },
-                //             {
-                //                 title: 'Upper Extremity Pain',
-                //                 to: ''
-                //             },
-                //             {
-                //                 title: 'Car Accident Injuries',
-                //                 to: ''
-                //             },
-                //         ]
-                //     },
-                //     {
-                //         title: 'OTHER SERVICES',
-                //         routes: [
-                //             {
-                //                 title: 'Acupuncture',
-                //                 to: ''
-                //             },
-                //             {
-                //                 title: 'Massage Therapy',
-                //                 to: ''
-                //             },
-                //             {
-                //                 title: 'Rehabilitation',
-                //                 to: ''
-                //             },
-                //             {
-                //                 title: 'Spinal Decompression',
-                //                 to: ''
-                //             }
-                //         ]
-                //     }
-                // ]
+                subMenus: [
+                    {
+                        title: 'CHIROPRACTIC CARE',
+                        routes: [
+                            {
+                                title: 'Back Pain Treatment',
+                                to: '/services/services'
+                            },
+                            // {
+                            //     title: 'Neck Pain',
+                            //     to: ''
+                            // },
+                            // {
+                            //     title: 'Headache Treatment',
+                            //     to: ''
+                            // },
+                            // {
+                            //     title: 'Sciatica',
+                            //     to: ''
+                            // },
+                            // {
+                            //     title: 'Shoulder Pain Treatment',
+                            //     to: ''
+                            // },
+                            // {
+                            //     title: 'Lower Extremity Pain',
+                            //     to: ''
+                            // },
+                            // {
+                            //     title: 'Upper Extremity Pain',
+                            //     to: ''
+                            // },
+                            // {
+                            //     title: 'Car Accident Injuries',
+                            //     to: ''
+                            // },
+                        ]
+                    },
+                    //     {
+                    //         title: 'OTHER SERVICES',
+                    //         routes: [
+                    //             {
+                    //                 title: 'Acupuncture',
+                    //                 to: ''
+                    //             },
+                    //             {
+                    //                 title: 'Massage Therapy',
+                    //                 to: ''
+                    //             },
+                    //             {
+                    //                 title: 'Rehabilitation',
+                    //                 to: ''
+                    //             },
+                    //             {
+                    //                 title: 'Spinal Decompression',
+                    //                 to: ''
+                    //             }
+                    //         ]
+                    //     }
+                ]
             },
             {
                 title: 'Testimonials',
