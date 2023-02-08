@@ -79,27 +79,27 @@ const routes = ref([
       },
     ],
   },
-  // {
-  //   title: "Other Services",
-  //   to: "/servicesPage",
-  //   subRoutes: [
-  //     {
-  //       title: "Acupuncture",
-  //       to: "/services/services/acupuncture",
-  //     },
-  //     {
-  //       title: "Massage Therapy",
-  //       to: "/services/services/massageTherapy",
-  //     },
-  //     {
-  //       title: "Spinal Decompression",
-  //       to: "/services/services/spinalDecompression",
-  //     },
-  //     {
-  //       title: "Rehabilitation",
-  //       to: "/services/services/rehabilitation",
-  //     },
-  //   ],
-  // },
+  {
+    title: "Other Services",
+    to: "/servicesPage",
+    subRoutes: [
+      {
+        title: "Acupuncture",
+        to: "/services/services/acupuncture",
+      },
+      {
+        title: "Massage Therapy",
+        to: "/services/services/massageTherapy",
+      },
+      {
+        title: "Spinal Decompression",
+        to: "/services/services/spinalDecompression",
+      },
+      {
+        title: "Rehabilitation",
+        to: "/services/services/rehabilitation",
+      },
+    ],
+  },
 ]);
 </script>
