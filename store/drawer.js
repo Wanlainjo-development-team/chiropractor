@@ -100,12 +100,12 @@ export const useDraerStore = defineStore('websiteDraer', {
                 to: '/payment',
                 menu: false
             },
-            // {
-            //     title: 'Forms',
-            //     icon: 'mdi-account-group',
-            //     to: '/e',
-            //     menu: false
-            // },
+            {
+                title: 'Forms',
+                icon: 'mdi-account-group',
+                to: '/forms',
+                menu: false
+            },
             {
                 title: 'Contact',
                 icon: 'mdi-account-group',
