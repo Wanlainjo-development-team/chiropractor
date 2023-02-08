@@ -85,7 +85,7 @@ export const useDraerStore = defineStore('websiteDraer', {
             {
                 title: 'Testimonials',
                 icon: 'mdi-phone',
-                to: '/testimonials',
+                to: '/testimonial',
                 menu: false
             },
             // {

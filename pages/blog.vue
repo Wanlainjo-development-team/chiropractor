@@ -1,13 +1,10 @@
 <template>
-  <h1>testimonials</h1>
+  <h1>blog</h1>
 </template>
 
 <script>
-export default {
-
-}
+export default {};
 </script>
 
 <style>
-
 </style>

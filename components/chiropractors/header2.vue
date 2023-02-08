@@ -5,7 +5,7 @@
         >Minnesota Chiropractors You Can Trust</span
       >
     </v-card-title>
-    <v-card-text>
+    <v-card-text class="text-grey-darken-3">
       Good chiropractors aren’t always easy to find, but here at the Brost
       Clinic, you can put your mind at ease knowing that you’ll always receive
       the very best chiropractic, acupuncture and natural health care. Our
