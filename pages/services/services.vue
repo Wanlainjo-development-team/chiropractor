@@ -1,94 +1,42 @@
 <template>
+  <Header />
   <v-app>
     <v-navigation-drawer
       color="#F9FAFA"
       class="pa-4"
       border="0"
       width="300"
-      floating
-      permanent
     >
-      <v-list density="compact">
-        <v-list-item density="compact" to="/servicesPage">
-          <v-list-item-title class="text-body-2"
-            >Chiropractic Services</v-list-item-title
-          >
-        </v-list-item>
-      </v-list>
+      <div v-for="(route, i) in routes" :key="i">
+        <v-list density="compact">
+          <v-list-item density="compact" class="rounded-lg" :to="route.to">
+            <v-list-item-title class="text-body-2">{{
+              route.title
+            }}</v-list-item-title>
+          </v-list-item>
+        </v-list>
 
-      <v-row justify="space-between" dense>
-        <v-col cols="1"></v-col>
-        <v-col cols="11">
-          <v-list density="compact">
-            <v-list-item density="compact">
-              <v-list-item-title class="text-body-2"
-                >Back Pain Treatment</v-list-item-title
+        <v-row justify="space-between" dense>
+          <v-col cols="1"></v-col>
+          <v-col cols="11">
+            <v-list density="compact">
+              <v-list-item
+                v-for="(subRoute, i) in route.subRoutes"
+                :key="i"
+                :to="subRoute.to"
+                active-color="blue"
+                active-class="rounded-lg"
+                class="mb-2 rounded-lg"
+                density="compact"
               >
-            </v-list-item>
-            <v-list-item density="compact">
-              <v-list-item-title class="text-body-2"
-                >Sciatica</v-list-item-title
-              >
-            </v-list-item>
-            <v-list-item density="compact">
-              <v-list-item-title class="text-body-2"
-                >Headache Treatment</v-list-item-title
-              >
-            </v-list-item>
-            <v-list-item density="compact">
-              <v-list-item-title class="text-body-2"
-                >Lower Extremity Pain</v-list-item-title
-              >
-            </v-list-item>
-            <v-list-item density="compact">
-              <v-list-item-title class="text-body-2"
-                >Upper Extremity Pain</v-list-item-title
-              >
-            </v-list-item>
-            <v-list-item density="compact">
-              <v-list-item-title class="text-body-2"
-                >Car Accident Injury</v-list-item-title
-              >
-            </v-list-item>
-          </v-list>
-        </v-col>
-      </v-row>
-
-      <v-list density="compact">
-        <v-list-item density="compact">
-          <v-list-item-title class="text-body-2"
-            >Other Services</v-list-item-title
-          >
-        </v-list-item>
-      </v-list>
-
-      <v-row justify="space-between" dense>
-        <v-col cols="1"></v-col>
-        <v-col cols="11">
-          <v-list density="compact">
-            <v-list-item density="compact">
-              <v-list-item-title class="text-body-2"
-                >Acupuncture
-              </v-list-item-title>
-            </v-list-item>
-            <v-list-item density="compact">
-              <v-list-item-title class="text-body-2"
-                >Massage Therapy</v-list-item-title
-              >
-            </v-list-item>
-            <v-list-item density="compact">
-              <v-list-item-title class="text-body-2"
-                >Spinal Decompression</v-list-item-title
-              >
-            </v-list-item>
-            <v-list-item density="compact">
-              <v-list-item-title class="text-body-2"
-                >Rehabilitation</v-list-item-title
-              >
-            </v-list-item>
-          </v-list>
-        </v-col>
-      </v-row>
+                <v-list-item-title class="text-body-2">{{
+                  subRoute.title
+                }}</v-list-item-title>
+              </v-list-item>
+            </v-list>
+          </v-col>
+        </v-row>
+      </div>
     </v-navigation-drawer>
 
     <v-main>
@@ -96,4 +44,67 @@
     </v-main>
   </v-app>
 </template>
-    
+
+<script setup>
+import { ref } from "vue";
+import Header from "~/components/servicesRoutes/header.vue";
+
+const routes = ref([
+  {
+    title: "Chiropractic Services",
+    to: "/servicesPage",
+    subRoutes: [
+      {
+        title: "Back Pain Treatment",
+        to: "/services/services/backPainTreatment",
+      },
+      {
+        title: "Neck pain",
+        to: "/services/services/neckPain",
+      },
+      // {
+      //   title: "Sciatica",
+      //   to: "/services/services/sciatica",
+      // },
+      // {
+      //   title: "Headache Treatment",
+      //   to: "/services/services/headacheTreatment",
+      // },
+      // {
+      //   title: "Lower Extremity Pain",
+      //   to: "/services/services/lowerExtremityPain",
+      // },
+      // {
+      //   title: "Upper Extremity Pain",
+      //   to: "/services/services/upperExtremityPain",
+      // },
+      // {
+      //   title: "Car Accident Injury",
+      //   to: "/services/services/carAccidentInjury",
+      // },
+    ],
+  },
+  // {
+  //   title: "Other Services",
+  //   to: "/servicesPage",
+  //   subRoutes: [
+  //     {
+  //       title: "Acupuncture",
+  //       to: "/services/services/acupuncture",
+  //     },
+  //     {
+  //       title: "Massage Therapy",
+  //       to: "/services/services/massageTherapy",
+  //     },
+  //     {
+  //       title: "Spinal Decompression",
+  //       to: "/services/services/spinalDecompression",
+  //     },
+  //     {
+  //       title: "Rehabilitation",
+  //       to: "/services/services/rehabilitation",
+  //     },
+  //   ],
+  // },
+]);
+</script>

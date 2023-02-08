@@ -27,12 +27,12 @@ export const useDraerStore = defineStore('websiteDraer', {
                         routes: [
                             {
                                 title: 'Back Pain Treatment',
-                                to: '/services/services'
+                                to: '/services/services/backPainTreatment'
                             },
-                            // {
-                            //     title: 'Neck Pain',
-                            //     to: ''
-                            // },
+                            {
+                                title: 'Neck Pain',
+                                to: '/services/services/neckPain'
+                            },
                             // {
                             //     title: 'Headache Treatment',
                             //     to: ''
