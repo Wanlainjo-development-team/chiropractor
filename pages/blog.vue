@@ -1,10 +1,11 @@
 <template>
-  <h1>blog</h1>
+  <Header />
+  <Posts />
+  <Footer />
 </template>
 
-<script>
-export default {};
+<script setup>
+import Header from "@/components/blog/header.vue";
+import Posts from "@/components/blog/posts.vue";
+import Footer from "@/components/fragments/footer.vue";
 </script>
-
-<style>
-</style>

@@ -19,7 +19,7 @@ export const useDraerStore = defineStore('websiteDraer', {
             {
                 title: 'Services',
                 icon: 'mdi-account-school',
-                to: '/services',
+                to: '/servicesPage',
                 menu: true,
                 // subMenus: [
                 //     {
@@ -88,12 +88,12 @@ export const useDraerStore = defineStore('websiteDraer', {
                 to: '/testimonial',
                 menu: false
             },
-            // {
-            //     title: 'Blog',
-            //     icon: 'mdi-party-popper',
-            //     to: '/d',
-            //     menu: false
-            // },
+            {
+                title: 'Blog',
+                icon: 'mdi-party-popper',
+                to: '/blog',
+                menu: false
+            },
             // {
             //     title: 'Payments',
             //     icon: 'mdi-account-group',
