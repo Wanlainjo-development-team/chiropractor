@@ -23,7 +23,7 @@
                 flat
                 to="/contact"
                 size="large"
-                class="text-body-1 text-capitalize rounded-0 b-white text-blue"
+                class="text-body-1 text-capitalize rounded-0 bg-white text-blue"
                 >Make an appointment</v-btn
               >
             </v-col>

@@ -94,12 +94,12 @@ export const useDraerStore = defineStore('websiteDraer', {
                 to: '/blog',
                 menu: false
             },
-            // {
-            //     title: 'Payments',
-            //     icon: 'mdi-account-group',
-            //     to: '/e',
-            //     menu: false
-            // },
+            {
+                title: 'Payments',
+                icon: 'mdi-account-group',
+                to: '/payment',
+                menu: false
+            },
             // {
             //     title: 'Forms',
             //     icon: 'mdi-account-group',
