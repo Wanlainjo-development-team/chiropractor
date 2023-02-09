@@ -87,7 +87,7 @@ const posts = ref([
     image:
       "https://res.cloudinary.com/rukkiecodes/image/upload/v1675377310/chriopractor/Chiropractor-768x681_pn3eo9.webp",
     title: "After Car Accident Chiropractor: Why You Need To See One",
-    aurthor: "Alex Brost",
+    aurthor: "Chris Fokumlah",
     covering: ["General Chiropractic ", "Pain ", "Sports Injuries"],
     text: [
       "Seeking medical Chiropractor treatment after you have been in a car accident is the first thing you should do. In most cases, accident victims are taken to the emergency room to be assessed for injuries and to receive treatment to help them recover. Going through these steps after a car accident is important regardless of whether or not you believe you have been injured or don’t think that the minor injuries you sustained require medical attention. This is because some injuries can take hours or, in some cases, days to begin to hurt.",

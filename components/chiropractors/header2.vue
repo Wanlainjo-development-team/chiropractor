@@ -6,10 +6,10 @@
       >
     </v-card-title>
     <v-card-text class="text-grey-darken-3">
-      Good chiropractors aren’t always easy to find, but here at the Brost
-      Clinic, you can put your mind at ease knowing that you’ll always receive
-      the very best chiropractic, acupuncture and natural health care. Our
-      clinic founder and CEO, Dr. Barbro Brost, has put together an
+      Good chiropractors aren’t always easy to find, but here at the Metronet
+      Chiropractic Clinic, you can put your mind at ease knowing that you’ll
+      always receive the very best chiropractic, acupuncture and natural health
+      care. Our clinic founder and CEO, Dr. Barbro Brost, has put together an
       award-winning team of professionals who meet our standards both in
       aptitude as well as attitude. The doctors are dedicated to offering
       patients only the highest quality service, which has won us countless
