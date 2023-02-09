@@ -3,6 +3,7 @@ import { defineStore } from 'pinia'
 export const useDraerStore = defineStore('websiteDraer', {
     state: () => ({
         drawer: false,
+        rightDrawer: false,
         routes: [
             {
                 title: 'Home',
@@ -12,13 +13,13 @@ export const useDraerStore = defineStore('websiteDraer', {
             },
             {
                 title: 'meet your chiropractors',
-                icon: 'mdi-account',
+                icon: 'mdi-doctor',
                 to: '/chiropractorPage',
                 menu: false
             },
             {
                 title: 'Services',
-                icon: 'mdi-account-school',
+                icon: 'mdi-room-service',
                 to: '/servicesPage',
                 menu: true,
                 subMenus: [
@@ -80,31 +81,31 @@ export const useDraerStore = defineStore('websiteDraer', {
             },
             {
                 title: 'Testimonials',
-                icon: 'mdi-phone',
+                icon: 'mdi-account-group',
                 to: '/testimonial',
                 menu: false
             },
             {
                 title: 'Blog',
-                icon: 'mdi-party-popper',
+                icon: 'mdi-book-open-page-variant',
                 to: '/blog',
                 menu: false
             },
             {
                 title: 'Payments',
-                icon: 'mdi-account-group',
+                icon: 'mdi-account-cash',
                 to: '/payment',
                 menu: false
             },
             {
                 title: 'Forms',
-                icon: 'mdi-account-group',
+                icon: 'mdi-form-dropdown',
                 to: '/forms',
                 menu: false
             },
             {
                 title: 'Contact',
-                icon: 'mdi-account-group',
+                icon: 'mdi-account-voice',
                 to: '/contact',
                 menu: false
             }

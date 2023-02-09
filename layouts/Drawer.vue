@@ -1,9 +1,5 @@
 <template>
-  <v-navigation-drawer
-    v-model="drawer.drawer"
-    location="left"
-    border="0"
-  >
+  <v-navigation-drawer v-model="drawer.drawer" location="left" border="0">
     <v-card color="transparent" flat>
       <v-card-text class="pa-2">
         <v-list nav>
@@ -11,7 +7,7 @@
             v-for="(route, i) in drawer.routes"
             :key="i"
             :to="route.to"
-            prepend-icon="mdi-email"
+            :prepend-icon="route.icon"
             :title="route.title"
             :value="route.title"
           ></v-list-item>
@@ -31,12 +27,12 @@
 
 <script setup>
 import { useDraerStore } from "@/store/drawer";
-import { computed, onMounted, onBeforeMount } from "vue";
+import { ref, onMounted, onBeforeMount } from "vue";
 import { useDisplay } from "vuetify";
 
 const { name } = useDisplay();
 
-const drawer = useDraerStore();
+const drawer = ref(useDraerStore());
 
 const resetDrawer = () => {
   switch (name.value) {
@@ -55,11 +51,7 @@ const resetDrawer = () => {
   }
 };
 
-onBeforeMount(() => {
-  resetDrawer()
-});
-
 onMounted(() => {
-  resetDrawer()
+  resetDrawer();
 });
 </script>
