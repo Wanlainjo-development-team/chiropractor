@@ -55,7 +55,7 @@
                 <v-list density="compact">
                   <v-list-item>
                     <template v-slot:prepend>
-                      <v-icon>mdi-arrow-right-circle</v-icon>
+                      <v-icon color="blue">mdi-arrow-right-circle</v-icon>
                     </template>
 
                     <v-list-item-title v-text="item"></v-list-item-title>

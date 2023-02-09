@@ -1,9 +1,8 @@
 <template>
   <v-navigation-drawer
     v-model="drawer.drawer"
-    :location="location"
+    location="left"
     border="0"
-    :class="rounded"
   >
     <v-card color="transparent" flat>
       <v-card-text class="pa-2">
@@ -62,27 +61,5 @@ onBeforeMount(() => {
 
 onMounted(() => {
   resetDrawer()
-});
-
-const location = computed(() => {
-  switch (name.value) {
-    case "xs":
-      return "bottom";
-    case "sm":
-      return "right";
-  }
-
-  return undefined;
-});
-
-const rounded = computed(() => {
-  switch (name.value) {
-    case "xs":
-      return "rounded-t-xl";
-    case "sm":
-      return "rounded-0";
-  }
-
-  return undefined;
 });
 </script>

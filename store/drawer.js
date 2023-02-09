@@ -55,27 +55,27 @@ export const useDraerStore = defineStore('websiteDraer', {
                             },
                         ]
                     },
-                    //     {
-                    //         title: 'OTHER SERVICES',
-                    //         routes: [
-                    //             {
-                    //                 title: 'Acupuncture',
-                    //                 to: ''
-                    //             },
-                    //             {
-                    //                 title: 'Massage Therapy',
-                    //                 to: ''
-                    //             },
-                    //             {
-                    //                 title: 'Rehabilitation',
-                    //                 to: ''
-                    //             },
-                    //             {
-                    //                 title: 'Spinal Decompression',
-                    //                 to: ''
-                    //             }
-                    //         ]
-                    //     }
+                    {
+                        title: 'OTHER SERVICES',
+                        routes: [
+                            {
+                                title: "Acupuncture",
+                                to: "/services/services/acupuncture",
+                            },
+                            {
+                                title: "Massage Therapy",
+                                to: "/services/services/massageTherapy",
+                            },
+                            {
+                                title: "Spinal Decompression",
+                                to: "/services/services/spinalDecompression",
+                            },
+                            {
+                                title: "Rehabilitation",
+                                to: "/services/services/rehabilitation",
+                            },
+                        ]
+                    }
                 ]
             },
             {
