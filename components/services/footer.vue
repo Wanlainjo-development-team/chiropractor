@@ -10,7 +10,7 @@
         <v-card color="transparent" flat>
           <v-card-title class="text-lg-h4">Acupuncture</v-card-title>
           <v-card-text>
-            All of our doctors at the Brost Clinic are fully certified to carry
+            All of our doctors at Metronet Chiropractic Clinic are fully certified to carry
             out acupuncture and meridian therapy, which has been proven to aide
             the diagnosis and treatment of conditions which may not be detected
             by your regular physician.

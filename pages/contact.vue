@@ -6,7 +6,7 @@
         <v-card color="blue" class="rounded-0" flat>
           <v-card-text class="text-h6 text-lg-h6">
             <span style="line-height: 1em"
-              >Contact The Brost Clinic Chiropractors</span
+              >Contact Metronet Chiropractic Clinic Chiropractors</span
             >
           </v-card-text>
           <v-card-subtitle class="text-white">
@@ -79,7 +79,7 @@ const contactInfo = ref([
   },
   {
     icon: "mdi-email",
-    title: "info@thebrostclinic.com",
+    title: "cfokumahlah@hotmail.com",
     subtitle: "Need help? Drop us an email.",
   },
   {

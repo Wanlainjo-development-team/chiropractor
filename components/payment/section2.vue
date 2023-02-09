@@ -25,7 +25,7 @@
             <p class="text-body-2 mt-5">
               Did you know that Minnesota drivers and passengers involved in
               motor vehicle accidents are 100% covered for related injuries?
-              Workers’ compensation provides similar coverage. The Brost Clinic
+              Workers’ compensation provides similar coverage. Metronet Chiropractic Clinic
               doctors are experts at diagnosing, treating and processing auto
               and work-related injuries. We’ll work with your attorneys, if
               needed, and provide the documentation they need to advocate on

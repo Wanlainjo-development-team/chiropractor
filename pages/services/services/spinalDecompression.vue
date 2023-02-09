@@ -14,7 +14,7 @@
             Back or neck surgery can be costly in more ways than one,
             considering there are several risks associated with these
             procedures. Luckily nowadays, there’s a much more effective
-            treatment for spinal pain and injuries. Here at the Brost Clinic, we
+            treatment for spinal pain and injuries. Here at Metronet Chiropractic Clinic, we
             were the first in Minnesota to bring in the leading disc
             decompression therapy using DRX-9000 spinal decompression therapy.
             This spinal decompression system has been endorsed by numerous

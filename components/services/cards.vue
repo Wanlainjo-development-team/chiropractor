@@ -52,7 +52,7 @@ const cards = ref([
   },
   {
     title: "Sciatica",
-    text: "Sciatica is caused by a pinched nerve in the lower back.  Chiropractors are experts at diagnosing and treating sciatica, and The Brost Clinic offers non-surgical options for more severe cases.",
+    text: "Sciatica is caused by a pinched nerve in the lower back.  Chiropractors are experts at diagnosing and treating sciatica, and Metronet Chiropractic Clinic offers non-surgical options for more severe cases.",
   },
   {
     title: "Neck Pain",
@@ -72,7 +72,7 @@ const cards = ref([
   },
   {
     title: "Fibromyalgia",
-    text: "At The Brost Clinic, we use a combination of chiropractic, acupuncture and other therapies to alleviate pain and improve function to patients suffering from Fibromyalgia.",
+    text: "At Metronet Chiropractic Clinic, we use a combination of chiropractic, acupuncture and other therapies to alleviate pain and improve function to patients suffering from Fibromyalgia.",
   },
   {
     title: "Pinched Nerves",

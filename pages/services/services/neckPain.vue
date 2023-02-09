@@ -17,7 +17,7 @@
             discomfort often bothers people at night and it is difficult to find
             a comfortable position to sleep. A good pillow can be helpful, but
             the problem is most of the time not your pillow. It’s your neck! And
-            The Brost Clinic chiropractors are neck pain treatment experts.
+            Metronet Chiropractic Clinic chiropractors are neck pain treatment experts.
           </v-card-text>
           <v-card-text class="text-body-2 text-grey-darken-4">
             Sometimes the neck pain is more of a minor annoyance, but it can

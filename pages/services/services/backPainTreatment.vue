@@ -14,7 +14,7 @@
             A vast majority of Americans will experience back pain at some point
             in their lives, and most will suffer from low-back pain
             specifically. Chiropractors are experts at treating back pain, and
-            The Brost Clinic has been successfully treating Minnesotan’s with
+            Metronet Chiropractic Clinic has been successfully treating Minnesotan’s with
             back pain since 1986.
           </v-card-text>
           <v-card-text class="text-body-2 text-grey-darken-4">

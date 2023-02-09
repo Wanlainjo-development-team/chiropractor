@@ -9,7 +9,7 @@
                 <v-card-text>
                   <p class="text-h5 text-sm-h4 mt-5">Payments</p>
                   <p class="text-body-2 mt-5">
-                    Conveniently make payments to The Brost Clinic online! Have
+                    Conveniently make payments to Metronet Chiropractic Clinic online! Have
                     your invoice number and payment info ready, and click the
                     button below to access our secure payment gateway.
                   </p>

@@ -11,7 +11,7 @@
             >Acupuncture</v-card-title
           >
           <v-card-text class="text-body-2 text-grey-darken-4">
-            All the doctors at The Brost Clinic Wayzata are certified in
+            All the doctors at Metronet Chiropractic Clinic Wayzata are certified in
             acupuncture and meridian therapy. By combining traditional Chinese
             acupuncture technique with high-tech Electronic Meridian Imaging
             (EMI), the doctors are able to diagnose and treat conditions that
@@ -60,9 +60,9 @@
             question to this page so if you have a question and don’t see your
             answer, don’t hesitate to email us at
             <a
-              href="mailto:info@thebrostclinic.com"
+              href="mailto:cfokumahlah@hotmail.com"
               class="text-decoration-none font-weight-bold text-blue-darken-4"
-              >info@thebrostclinic.com</a
+              >cfokumahlah@hotmail.com</a
             >
           </v-card-text>
 

@@ -12,7 +12,7 @@
       <v-col cols="12" sm="8" class="py-5">
         <v-card color="transparent" flat>
           <v-card-subtitle class="text-body-1 text-white"
-            >THE BROST CLINIC BY THE NUMBERS</v-card-subtitle
+            >Metronet Chiropractic Clinic BY THE NUMBERS</v-card-subtitle
           >
           <v-card-text class="text-white text-h5 text-sm-h4 mb-0">
             <span class="font-weight-bold" style="line-height: 1.3em"

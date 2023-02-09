@@ -8,7 +8,7 @@
         <span class="font-weight-bold">Minnesota Chiropractic Health Care</span>
       </v-card-text>
       <v-card-text class="text-body-2 text-grey-darken-3">
-        The doctors at The Brost Clinic are trained in a variety of adjusting
+        The doctors at Metronet Chiropractic Clinic are trained in a variety of adjusting
         techniques. Traditional manual adjustments, drop table adjustments, or
         low-force activator adjustments are used depending on the patient’s
         condition and preference. If you have back or neck pain that is
@@ -55,7 +55,7 @@ const cards = ref([
       "https://res.cloudinary.com/rukkiecodes/image/upload/v1675332828/chriopractor/room1_yqpzim.jpg",
     lazy: "https://res.cloudinary.com/rukkiecodes/image/upload/v1675307350/chriopractor/placeholder_lnnfrn.jpg",
     title: "Chiropractic",
-    text: "Serving the Minneapolis West Suburbs since 1986, The Brost Clinic’s award-winning chiropractors are experts at treating back pain, neck pain, joint pain and car accident injuries.",
+    text: "Serving the Minneapolis West Suburbs since 1986, Metronet Chiropractic Clinic’s award-winning chiropractors are experts at treating back pain, neck pain, joint pain and car accident injuries.",
     to: "/servicesPage",
   },
   {

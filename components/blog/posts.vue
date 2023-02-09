@@ -138,7 +138,7 @@ const posts = ref([
         heading: "Takeaway",
         text: [
           "If you have been the victim of a car accident or automobile collision, you should not be surprised if you begin to experience back pain and you should see a chiropractor for car accident immidiately. This may occur immediately after the accident for some people, but for others, such discomfort may present itself a few hours, days, or even weeks after the event. Most medical practitioners will tell you that it is not uncommon for accident injury pain to be delayed. There have even been reports of individuals who seemed to have walked away totally unscathed from a car accident but only to start experiencing discomfort a couple of days later. This is usually the result of adrenaline rushing through the body, which helps mask any pain.",
-          "The Brost Clinic offers car accident victims the highest quality chiropractic and natural health services designed to help alleviate pain. If you have recently been in an accident or know someone who has, feel free to reach out to us today. We are here to help.",
+          "Metronet Chiropractic Clinic offers car accident victims the highest quality chiropractic and natural health services designed to help alleviate pain. If you have recently been in an accident or know someone who has, feel free to reach out to us today. We are here to help.",
         ],
       },
     ],

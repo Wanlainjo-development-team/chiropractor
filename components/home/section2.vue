@@ -28,7 +28,7 @@
                         width="100%"
                         height="100%"
                         src="https://www.youtube.com/embed/cplYgrvLrks"
-                        title="Welcome to The Brost Clinic.  Chiropractic, Acupuncture, and Natural Healthcare."
+                        title="Welcome to Metronet Chiropractic Clinic.  Chiropractic, Acupuncture, and Natural Healthcare."
                         frameborder="0"
                         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                         allowfullscreen
@@ -48,13 +48,13 @@
         <v-col cols="12" sm="7">
           <v-card flat color="transparent">
             <v-card-subtitle class="text-grey-darken-3"
-              >THE BROST CLINIC</v-card-subtitle
+              >Metronet Chiropractic Clinic</v-card-subtitle
             >
             <v-card-title class="font-weight-bold text-grey-darken-3"
               >Welcome to Wellness</v-card-title
             >
             <v-card-text class="text-body-2 text-grey-darken-3">
-              Here at The Brost Clinic, our qualified chiropractors have been
+              Here at Metronet Chiropractic Clinic, our qualified chiropractors have been
               serving the communities of Wayzata, Plymouth, Minnetonka, Orono,
               Mound, Long Lake, Maple Grove, Hamel, and the western suburbs of
               Minneapolis since 1986.
@@ -70,7 +70,7 @@
           </v-card>
           <v-card flat color="transparent">
             <v-card-title class="font-weight-bold text-grey-darken-3"
-              >The Brost Clinic Treatments</v-card-title
+              >Metronet Chiropractic Clinic Treatments</v-card-title
             >
             <v-card-text>
               <v-row justify="space-between" dense>

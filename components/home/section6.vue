@@ -6,7 +6,7 @@
         <span class="font-weight-bold">Recent Articles and News</span>
       </v-card-title>
       <v-card-text class="px-0 text-body-2 pb-0"
-        >Since its founding over 30 years ago, The Brost Clinic has been
+        >Since its founding over 30 years ago, Metronet Chiropractic Clinic has been
         providing tips and tricks on chiropractic care:</v-card-text
       >
     </v-card>
