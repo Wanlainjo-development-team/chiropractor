@@ -1,7 +1,12 @@
 <template>
   <v-app-bar :height="height" flat>
     <v-toolbar-title>
-      <img width="170" src="@/assets/images/logo.png" />
+      <v-img
+        cover
+        width="300"
+        aspect-ratio="1.5"
+        src="https://res.cloudinary.com/rukkiecodes/image/upload/v1675910172/chriopractor/svg_egxocc.svg"
+      />
     </v-toolbar-title>
 
     <v-spacer />
