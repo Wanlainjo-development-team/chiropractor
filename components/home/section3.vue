@@ -36,7 +36,7 @@
                 font-weight-bold
                 text-uppercase text-decoration-none text-blue
               "
-              to="/contact"
+              :to="card.to"
               >Read More</Nuxt-link
             >
           </v-card-actions>
@@ -56,7 +56,7 @@ const cards = ref([
     lazy: "https://res.cloudinary.com/rukkiecodes/image/upload/v1675307350/chriopractor/placeholder_lnnfrn.jpg",
     title: "Chiropractic",
     text: "Serving the Minneapolis West Suburbs since 1986, The Brost Clinic’s award-winning chiropractors are experts at treating back pain, neck pain, joint pain and car accident injuries.",
-    to: "",
+    to: "/servicesPage",
   },
   {
     image:
@@ -64,7 +64,7 @@ const cards = ref([
     lazy: "https://res.cloudinary.com/rukkiecodes/image/upload/v1675307350/chriopractor/placeholder_lnnfrn.jpg",
     title: "Acupuncture",
     text: "All of our chiropractors are board certified in acupuncture, and they use acupuncture as an adjective therapy to relieve pain, manage stress, and promote wellness.",
-    to: "",
+    to: "/services/services/acupuncture",
   },
   {
     image:
@@ -72,7 +72,7 @@ const cards = ref([
     lazy: "https://res.cloudinary.com/rukkiecodes/image/upload/v1675307350/chriopractor/placeholder_lnnfrn.jpg",
     title: "Spinal Decompression",
     text: "We were the first in Minnesota to offer DRX9000 disc decompression.  Spinal decompression is a safe alternative to back surgery for those suffering from herniated discs, sciatica, facet syndrome and other degenerative disc problems.",
-    to: "",
+    to: "/services/services/spinalDecompression",
   },
 ]);
 </script>

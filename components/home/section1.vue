@@ -19,7 +19,7 @@
                 font-weight-bold
                 text-uppercase text-decoration-none text-blue
               "
-              to="/contact"
+              :to="card.to"
               >Read More</Nuxt-link
             >
           </v-card-actions>
@@ -37,6 +37,7 @@ const cards = [
     lazy: "https://res.cloudinary.com/rukkiecodes/image/upload/v1675307350/chriopractor/placeholder_lnnfrn.jpg",
     title: "Low Back Pain",
     text: "Low back pain affects over 75% of adults and is a very common problem. Chiropractic joint manipulation helps.",
+    to: '/services/services/lowerExtremityPain'
   },
   {
     image:
@@ -44,6 +45,7 @@ const cards = [
     lazy: "https://res.cloudinary.com/rukkiecodes/image/upload/v1675307350/chriopractor/placeholder_lnnfrn.jpg",
     title: "Neck Pain",
     text: "Neck pain comes in several forms: Acute and Chronic. Caused by pressure building on the cervical nerves.",
+    to: '/services/services/neckPain'
   },
   {
     image:
@@ -51,6 +53,7 @@ const cards = [
     lazy: "https://res.cloudinary.com/rukkiecodes/image/upload/v1675307350/chriopractor/placeholder_lnnfrn.jpg",
     title: "Car Accident Injuries",
     text: "The proven combination of chiropractic adjustments and rehab training ensures great outcomes.",
+    to: '/services/services/carAccidentInjury'
   },
 ];
 </script>
