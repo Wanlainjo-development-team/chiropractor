@@ -9,7 +9,14 @@
       </v-card-title>
 
       <v-card-text>
-        <v-carousel v-model="model" hide-delimiters show-arrows="hover" cycle interval="5000" height="200">
+        <v-carousel
+          v-model="model"
+          hide-delimiters
+          show-arrows="hover"
+          cycle
+          interval="5000"
+          height="200"
+        >
           <v-carousel-item
             v-for="(testimonial, i) in testimonials"
             :key="i"
@@ -23,13 +30,6 @@
                 color="transparent"
                 flat
               >
-                <v-rating
-                  v-model="testimonial.rating"
-                  bg-color="orange-lighten-1"
-                  size="small"
-                  color="amber"
-                  readonly
-                />
                 <v-card-text class="text-grey-darken-3 text-body-1 text-left"
                   >``{{ testimonial.text }}``</v-card-text
                 >
@@ -73,29 +73,44 @@ const model = ref(0);
 
 const testimonials = ref([
   {
-    text: "I have been going to Dr Smith for years and he has truly changed my life. Not only has he helped alleviate my chronic back pain, but he has also taught me ways to maintain my overall well-being. I highly recommend him to anyone in need of chiropractic care.",
-    name: "Susan K",
-    rating: 4,
+    text: "I was involved in a car accident and suffered from neck and back pain. Dr. Chris was able to provide relief through his chiropractic treatments. I highly recommend Metronet Chiropractic for anyone dealing with pain from an accident.",
+    name: "- Sarah L",
   },
   {
-    text: "I was sceptical of chiropractic care at first, but after just one session with Dr Brown, I was a believer. She not only relieved my neck pain, but she also took the time to explain the root cause and showed me exercises to prevent it from happening again. I can't thank her enough!",
-    name: "John D",
-    rating: 3,
+    text: "Dr. Chris is a knowledgeable and caring chiropractor. He took the time to understand my concerns and created a personalized treatment plan that helped me manage my chronic pain. I'm grateful for his expertise and highly recommend him.",
+    name: "- John K",
   },
   {
-    text: "Dr Johnson has been a lifesaver for my family. From pediatric care for my children to geriatric care for my ageing parents, he has helped us all with a gentle and personalized approach. We are so grateful to have found such a wonderful chiropractor.",
-    name: "Amanda R",
-    rating: 5,
+    text: "After suffering from a sports injury, I was unable to continue playing my favorite sport. Dr. Chris was able to help me get back on the field through his chiropractic treatments. I highly recommend him for anyone dealing with sports injuries.",
+    name: "- Rachel S",
   },
   {
-    text: "I was in a car accident and had severe whiplash. After just a few visits with Dr Patel, I was able to return to work and resume my normal activities. I was amazed at how quickly and effectively she was able to treat my pain.",
-    name: "Michael S",
-    rating: 4.5,
+    text: "I have been seeing Dr. Chris for wellness care for years and I always leave feeling great. He is attentive and provides great care. I highly recommend him for anyone looking for chiropractic care.",
+    name: "- Mark B",
   },
   {
-    text: "Dr Lee has a true passion for chiropractic care and it shows in his dedication to his patients. He has helped me through various sports injuries and has always made sure I was comfortable and understood the treatment process. I would recommend him to anyone looking for a chiropractor.",
-    name: "Jennifer L",
-    rating: 5,
+    text: "Dr. Chris is a true professional who is passionate about helping his patients. He provided me with exceptional care after my work-related injury and helped me manage my pain. I highly recommend Metronet Chiropractic for anyone dealing with work-related injuries.",
+    name: "- Lisa H",
+  },
+  {
+    text: "Dr. Chris is an amazing chiropractor who is dedicated to his patients. He helped me manage my pain after a car accident and provided me with excellent care. I highly recommend him to anyone dealing with pain from an accident.",
+    name: "- Tom W",
+  },
+  {
+    text: "Dr. Chris is an excellent chiropractor who is passionate about his work. He helped me recover from my sports injury and provided me with great care. I highly recommend him to anyone dealing with sports injuries.",
+    name: "- David L",
+  },
+  {
+    text: "I have been seeing Dr. Chris for my chronic back pain and he has been able to provide me with relief through his chiropractic treatments. He is knowledgeable and attentive, and I highly recommend him.",
+    name: "- Angela M",
+  },
+  {
+    text: "I have been seeing Dr. Chris for wellness care and he has been able to help me maintain my overall health. He is friendly and provides great care. I highly recommend him.",
+    name: "- Emily G",
+  },
+  {
+    text: "Dr. Chris is a skilled chiropractor who is passionate about helping his patients. He helped me manage my pain after a work-related injury and provided me with exceptional care. I highly recommend him for anyone dealing with work-related injuries.",
+    name: "- Mike S",
   },
 ]);
 

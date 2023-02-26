@@ -8,15 +8,20 @@
               >About Metronet Chiropractic Clinic</v-card-title
             >
             <v-card-text class="text-body-2">
-              Metronet Chiropractic Clinic provides the highest quality
-              chiropractic and natural heath care to help alleviate pain and
-              promote optimum health for families and individuals of all ages.
+              Metronet Chiropractic, founded in 2003 by Dr. Chris Fokumlah,
+              offers natural care for all ages in the Twin Cities metro area.
+              Dr. Chris has 20+ years of experience in treating acute and
+              chronic injuries from automobile accidents, work-related
+              accidents, sports injuries, and providing wellness care, with a
+              focus on helping patients achieve optimal health.
             </v-card-text>
             <v-card-text class="text-body-2">
-              We are located just west of Minneapolis in Wayzata, MN. We proudly
-              serve patients from the surrounding areas of Plymouth, Minnetonka,
-              Deephaven, Orono, Mound, Long Lake, Medina, Hopkins, Golden
-              Valley, St. Louis Park and beyond.
+              Metronet Chiropractic uses scientific-based natural care to
+              decrease presenting symptoms, and also offers personal injury
+              services for accident victims. The clinic's resolution-focused
+              approach has helped many patients recover and resume their daily
+              activities. For personalized treatment plans and natural care,
+              Metronet Chiropractic is the right choice.
             </v-card-text>
 
             <v-card-text>
