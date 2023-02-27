@@ -54,18 +54,23 @@
               >Welcome to Wellness</v-card-title
             >
             <v-card-text class="text-body-2 text-grey-darken-3">
-              Here at Metronet Chiropractic Clinic, our qualified chiropractors have been
-              serving the communities of Wayzata, Plymouth, Minnetonka, Orono,
-              Mound, Long Lake, Maple Grove, Hamel, and the western suburbs of
-              Minneapolis since 1986.
+              Welcome to Metronet Chiropractic, the premier chiropractic clinic
+              serving the Twin Cities metro area. Led by Dr. Chris Fokumlah, our
+              team of experienced professionals is dedicated to providing
+              exceptional care to patients of all ages, with a special focus on
+              those who have been injured in automobile accidents, work-related
+              accidents, and sports injuries. Dr. Chris is a highly trained and
+              skilled chiropractor who uses a range of techniques to address
+              acute and chronic injuries, as well as to promote overall
+              wellness.
             </v-card-text>
             <v-card-text class="pt-0 text-body-2 text-grey-darken-3">
-              Over the years, our high quality services have earned us countless
-              awards as well as a solid reputation for being the best in the
-              business. If you’re looking for a safe alternative to back surgery
-              or are looking to treat pain of any kind using more natural and
-              holistic methods, don’t hesitate to get in touch with us today. We
-              offer free consultations on your first visit.
+              With a background in microbiology and functional medicine
+              training, Dr. Chris brings a scientific and holistic approach to
+              his chiropractic practice, with a commitment to resolving symptoms
+              and promoting long-term healing. We are passionate about the
+              health and wellbeing of our patients, and we look forward to
+              helping you achieve optimal health and vitality.
             </v-card-text>
           </v-card>
           <v-card flat color="transparent">

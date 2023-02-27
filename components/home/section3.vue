@@ -5,15 +5,15 @@
         >OUR SERVICES</v-card-subtitle
       >
       <v-card-text class="text-grey-darken-3 text-h5 text-sm-h4">
-        <span class="font-weight-bold">Minnesota Chiropractic Health Care</span>
+        <span class="font-weight-bold">Metronet Chiropractic Health Care</span>
       </v-card-text>
       <v-card-text class="text-body-2 text-grey-darken-3">
-        The doctors at Metronet Chiropractic Clinic are trained in a variety of adjusting
-        techniques. Traditional manual adjustments, drop table adjustments, or
-        low-force activator adjustments are used depending on the patient’s
-        condition and preference. If you have back or neck pain that is
-        affecting your day to day life, call or visit our office today to see
-        how we can help you enjoy life again.
+        At Metronet Chiropractic, we specialize in providing comprehensive care
+        for patients who have sustained injuries due to automobile accidents,
+        work-related accidents, and sports injuries. We understand the physical,
+        emotional, and financial toll that personal injury can take on a person,
+        which is why we are dedicated to providing effective and compassionate
+        care to help you recover as quickly as possible.
       </v-card-text>
     </v-card>
 
@@ -31,11 +31,7 @@
             <Nuxt-link
               color="blue"
               flat
-              class="
-                text-body-2
-                font-weight-bold
-                text-uppercase text-decoration-none text-blue
-              "
+              class="text-body-2 font-weight-bold text-uppercase text-decoration-none text-blue"
               :to="card.to"
               >Read More</Nuxt-link
             >
@@ -52,26 +48,26 @@ import { ref } from "vue";
 const cards = ref([
   {
     image:
-      "https://res.cloudinary.com/rukkiecodes/image/upload/v1675332828/chriopractor/room1_yqpzim.jpg",
+      "https://res.cloudinary.com/rukkiecodes/image/upload/v1677425949/chriopractor/diana-polekhina-SwWjCbIIoFE-unsplash_rjtous.jpg",
     lazy: "https://res.cloudinary.com/rukkiecodes/image/upload/v1675307350/chriopractor/placeholder_lnnfrn.jpg",
-    title: "Chiropractic",
-    text: "Serving the Minneapolis West Suburbs since 1986, Metronet Chiropractic Clinic’s award-winning chiropractors are experts at treating back pain, neck pain, joint pain and car accident injuries.",
+    title: "Personal Injury Treatment",
+    text: "We provide chiropractic care for auto, work, or sports injuries. Our customized plans relieve pain, reduce inflammation, and enhance mobility for a quicker return to daily activities.",
     to: "/servicesPage",
   },
   {
     image:
-      "https://res.cloudinary.com/rukkiecodes/image/upload/v1675332828/chriopractor/room2_oylfs3.jpg",
+      "https://res.cloudinary.com/rukkiecodes/image/upload/v1677425775/chriopractor/christopher-campbell-kFCdfLbu6zA-unsplash_mq1apb.jpg",
     lazy: "https://res.cloudinary.com/rukkiecodes/image/upload/v1675307350/chriopractor/placeholder_lnnfrn.jpg",
-    title: "Acupuncture",
-    text: "All of our chiropractors are board certified in acupuncture, and they use acupuncture as an adjective therapy to relieve pain, manage stress, and promote wellness.",
+    title: "Wellness Care",
+    text: "We aim to enhance your health and wellness with our services, such as nutrition counseling, exercise advice, and lifestyle changes.",
     to: "/services/services/acupuncture",
   },
   {
     image:
-      "https://res.cloudinary.com/rukkiecodes/image/upload/v1675332828/chriopractor/room3_gelmba.jpg",
+      "https://res.cloudinary.com/rukkiecodes/image/upload/v1677425774/chriopractor/christina-victoria-craft-ZHys6xN7sUE-unsplash_rkcrl5.jpg",
     lazy: "https://res.cloudinary.com/rukkiecodes/image/upload/v1675307350/chriopractor/placeholder_lnnfrn.jpg",
-    title: "Spinal Decompression",
-    text: "We were the first in Minnesota to offer DRX9000 disc decompression.  Spinal decompression is a safe alternative to back surgery for those suffering from herniated discs, sciatica, facet syndrome and other degenerative disc problems.",
+    title: "Functional Medicine",
+    text: "Our healthcare approach is holistic, considering your lifestyle, environment, and genetics. With functional medicine, we can identify underlying issues and create tailored treatment plans targeting the root cause of your health problems.",
     to: "/services/services/spinalDecompression",
   },
 ]);
