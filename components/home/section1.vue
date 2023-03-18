@@ -2,7 +2,7 @@
   <v-container class="pb-0">
     <v-row justify="space-between">
       <v-col v-for="(card, i) in cards" :key="i" cols="12" sm="4">
-        <v-card class="mx-auto" elevation="5" max-width="344" color="white">
+        <v-card class="mx-auto" elevation="0" max-width="344" color="white">
           <v-img :src="card.image" :lazy-src="card.lazy" height="200px" cover />
           <v-card-title class="text-grey-darken-3 font-weight-bold">{{
             card.title

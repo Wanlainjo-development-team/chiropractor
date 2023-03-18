@@ -1,43 +1,19 @@
 <template>
-  <v-carousel
-    hide-delimiters
-    show-arrows="hover"
-    height="500"
-    cycle
-    interval="20000"
-  >
+  <v-carousel hide-delimiters :show-arrows="false" height="100vh" cycle interval="60000">
     <v-carousel-item v-for="(item, i) in items" :key="i">
-      <v-parallax
-        :src="item"
+      <v-parallax :src="item"
         lazy-src="https://res.cloudinary.com/rukkiecodes/image/upload/v1675307350/chriopractor/placeholder_lnnfrn.jpg"
-        gradient="to bottom, rgba(0,0,0,.6), rgba(0,0,0,.6)"
-      >
+        gradient="to bottom, rgba(0,0,0,.6), rgba(0,0,0,.6)">
         <v-container class="pa-0">
-          <v-card
-            height="500"
-            max-width="100%"
-            color="transparent"
-            class="d-flex align-center"
-            flat
-          >
+          <v-card height="100vh" max-width="100%" color="transparent" class="d-flex align-center" flat>
             <v-card-text class="white--text d-flex flex-column align-start">
-              <span
-                class="
-                  text-h5 text-sm-h4 text-lg-h3 text-white
-                  font-weight-bold
-                "
-                >Our Team Welcomes You</span
-              >
-              <span class="text-white text-lg-body-1"
-                >chiropractic and wellness clinic</span
-              >
-              <v-btn
-                color="blue"
-                flat
-                class="mt-4 text-body-2 font-weight-bold text-capitalize"
-                to="/contact"
-                >Make an appointment</v-btn
-              >
+              <span class="
+                      text-h5 text-sm-h4 text-lg-h3 text-white
+                      font-weight-bold
+                    ">Promoting Better Health</span>
+              <span class="text-white text-lg-body-1">Improving Your Life Through Chiropractic Care</span>
+              <v-btn color="blue" flat class="mt-4 text-body-2 font-weight-bold text-capitalize" to="/contact">Make an
+                appointment</v-btn>
             </v-card-text>
           </v-card>
         </v-container>

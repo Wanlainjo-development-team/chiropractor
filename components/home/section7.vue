@@ -1,48 +1,50 @@
 <template>
-  <v-container fluid class="bg-blue pa-0">
-    <v-row no-gutters>
-      <v-col cols="12" sm="4">
-        <v-parallax
-          src="https://res.cloudinary.com/rukkiecodes/image/upload/v1675380464/chriopractor/front-desk-docotors-fca_c1fbvk.jpg"
-          lazy-src="https://res.cloudinary.com/rukkiecodes/image/upload/v1675307350/chriopractor/placeholder_lnnfrn.jpg"
-          height="600"
-          cover
-        />
-      </v-col>
-      <v-col cols="12" sm="8" class="py-5">
-        <v-card color="transparent" flat>
-          <v-card-subtitle class="text-body-1 text-white"
-            >Metronet Chiropractic Clinic BY THE NUMBERS</v-card-subtitle
-          >
-          <v-card-text class="text-white text-h5 text-sm-h4 mb-0">
-            <span class="font-weight-bold" style="line-height: 1.3em"
-              >Powered By Over 1,503 Patients Who Have Trusted Us With Their
-              Health.</span
-            >
+  <v-container class="py-16">
+    <v-row>
+      <v-col>
+        <v-card class="rounded-xl" flat>
+          <v-card-text>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2822.623815426853!2d-93.4943905!3d44.9716373!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x52b34b6597a903a7%3A0x868f61454e06b908!2s1421%20Wayzata%20Blvd%20%23%20100%2C%20Wayzata%2C%20MN%2055391%2C%20USA!5e0!3m2!1sen!2sng!4v1679179716546!5m2!1sen!2sng"
+              width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
           </v-card-text>
         </v-card>
-        <v-row justify="space-between">
-          <v-col v-for="(card, i) in cards" :key="i" cols="12" sm="4">
-            <v-card flat color="transparent">
-              <v-card-text class="d-flex align-center">
-                <v-avatar size="50" color="white">
-                  <v-icon color="blue" size="30">{{ card.icon }}</v-icon>
-                </v-avatar>
-                <v-card-text
-                  class="d-flex flex-column align-start justify-center"
-                >
-                  <span class="text-white font-weight-bold d-flex align-center"
-                    ><v-icon>mdi-plus</v-icon>
-                    <span class="text-h5 text-lg-h4 font-weight-bold">{{
-                      card.title
-                        .toString()
-                        .replace(/\B(?=(\d{3})+(?!\d))/g, ",")
-                    }}</span></span
-                  >
-                  <span class="text-body-2">{{ card.subtitle }}</span>
-                </v-card-text>
-              </v-card-text>
-            </v-card>
+      </v-col>
+    </v-row>
+    <v-row no-gutters>
+      <v-col cols="12" sm="6">
+        <v-card flat>
+          <v-card-title>Location</v-card-title>
+          <v-card-subtitle class="font-weight-bold">Address</v-card-subtitle>
+          <v-card-text class="pt-0">1421 Wayzata Blvd #100, Wayzata,<br>MN 55391, United States</v-card-text>
+          <v-card-subtitle class="font-weight-bold">Phone</v-card-subtitle>
+          <v-card-text class="pt-0"><a href="tel:+1-612-296-5143"
+              class="text-decoration-none text-grey-darken-4">+1-612-296-5143</a></v-card-text>
+        </v-card>
+      </v-col>
+      <v-col cols="12" sm="6" class="py-5">
+        <v-row dense justify="space-between">
+          <v-col cols="6">
+            <span class="font-weight-bold text-grey-darken-3">Monday - Friday</span>
+          </v-col>
+          <v-col cols="6">
+            <span>7:00am - 6:00pm</span>
+          </v-col>
+          <v-col cols="6">
+            <span class="font-weight-bold text-grey-darken-3">Saturday</span>
+          </v-col>
+          <v-col cols="6">
+            <span>7:00am - 1:00pm</span>
+          </v-col>
+          <v-col cols="6">
+            <span class="font-weight-bold text-grey-darken-3">Sunday</span>
+          </v-col>
+          <v-col cols="6">
+            <span>Closed</span>
+          </v-col>
+          <v-col cols="6">
+            <v-btn block flat to="/contact" class="bg-blue text-capitalize rounded-lg mt-2">make an appointment</v-btn>
           </v-col>
         </v-row>
       </v-col>

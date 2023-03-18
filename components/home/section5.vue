@@ -17,9 +17,9 @@
     <v-carousel
       cycle
       height="100%"
-      interval="10000"
+      interval="30000"
       hide-delimiters
-      show-arrows="hover"
+      :show-arrows="false"
       delimiter-icon="mdi-square"
     >
       <v-carousel-item v-for="(testimonial, i) in testimonials" :key="i">
