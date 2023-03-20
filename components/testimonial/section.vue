@@ -12,9 +12,9 @@
         <v-carousel
           v-model="model"
           hide-delimiters
-          show-arrows="hover"
+          :show-arrows="false"
           cycle
-          interval="5000"
+          interval="30000"
           height="200"
         >
           <v-carousel-item

@@ -2,7 +2,7 @@
   <v-container>
     <v-row justify="space-between">
       <v-col v-for="(card, i) in cards" :key="i" cols="12" sm="4">
-        <v-card>
+        <v-card flat>
           <v-img :src="card.image" :lazy-src="card.lazy" cover />
           <v-card-title class="text-grey-darken-3">{{ card.title }}</v-card-title>
           <v-card-text class="text-grey-darken-3">{{ card.text }} </v-card-text>

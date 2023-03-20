@@ -1,5 +1,5 @@
 <template>
-  <v-card position="fixed" class="pa-0 pa-lg-4" max-width="100%" width="100%" color="transparent" style="z-index: 1;"
+  <v-card position="fixed" class="pa-0 pa-lg-4" max-width="100%" width="100%" color="transparent" style="z-index: 100 !important;"
     flat>
     <v-toolbar class="rounded-lg" color="white">
       <v-toolbar-title>

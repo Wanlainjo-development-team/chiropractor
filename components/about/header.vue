@@ -1,10 +1,10 @@
 <template>
   <v-carousel
     hide-delimiters
-    show-arrows="hover"
-    height="400"
+    :show-arrows="false"
+    height="70vh"
     cycle
-    interval="20000"
+    interval="60000"
   >
     <v-carousel-item v-for="(item, i) in items" :key="i">
       <v-parallax
@@ -14,7 +14,7 @@
       >
         <v-container class="pa-0">
           <v-card
-            height="400"
+            height="70vh"
             max-width="100%"
             color="transparent"
             class="d-flex align-center"
@@ -26,7 +26,7 @@
                   text-h5 text-sm-h4 text-lg-h3 text-white
                   font-weight-bold
                 "
-                >New Patient Forms</span
+                >About Dr. Chris Fokumlah</span
               >
             </v-card-text>
           </v-card>

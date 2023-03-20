@@ -6,8 +6,8 @@
 </template>
 
 <script setup>
-import Header from '~~/components/chiropractors/header.vue';
-import Header2 from '~~/components/chiropractors/header2.vue';
-import Chiropractors from '~~/components/chiropractors/chiropractors.vue';
-import Footer from '~~/components/fragments/footer.vue';
+import Header from '@/components/chiropractors/header.vue';
+import Header2 from '@/components/chiropractors/header2.vue';
+import Chiropractors from '@/components/chiropractors/chiropractors.vue';
+import Footer from '@/components/fragments/footer.vue';
 </script>

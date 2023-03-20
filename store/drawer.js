@@ -12,12 +12,6 @@ export const useDraerStore = defineStore('websiteDraer', {
                 menu: false
             },
             {
-                title: 'meet your chiropractors',
-                icon: 'mdi-doctor',
-                to: '/chiropractorPage',
-                menu: false
-            },
-            {
                 title: 'Services',
                 icon: 'mdi-room-service',
                 to: '/servicesPage',
@@ -80,6 +74,12 @@ export const useDraerStore = defineStore('websiteDraer', {
                 ]
             },
             {
+                title: 'About',
+                icon: 'mdi-account-group',
+                to: '/about',
+                menu: false
+            },
+            {
                 title: 'Testimonials',
                 icon: 'mdi-account-group',
                 to: '/testimonial',
@@ -89,18 +89,6 @@ export const useDraerStore = defineStore('websiteDraer', {
                 title: 'Blog',
                 icon: 'mdi-book-open-page-variant',
                 to: '/blog',
-                menu: false
-            },
-            {
-                title: 'Payments',
-                icon: 'mdi-account-cash',
-                to: '/payment',
-                menu: false
-            },
-            {
-                title: 'Forms',
-                icon: 'mdi-form-dropdown',
-                to: '/forms',
                 menu: false
             },
             {
