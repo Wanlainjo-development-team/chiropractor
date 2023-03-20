@@ -33,9 +33,9 @@
               <v-btn
                 block
                 flat
-                to="#contact"
+                to="/contact"
                 size="large"
-                class="text-body-1 text-capitalize rounded-0 bg-blue text-white"
+                class="text-body-1 text-capitalize rounded-lg bg-blue text-white"
                 >More Services</v-btn
               >
             </v-col>

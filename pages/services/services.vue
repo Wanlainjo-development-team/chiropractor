@@ -60,7 +60,7 @@
 <script setup>
 import { ref, onBeforeMount, onMounted } from "vue";
 import Header from "~/components/servicesRoutes/header.vue";
-import { useDraerStore } from "~~/store/drawer";
+import { useDraerStore } from "@/store/drawer";
 import { useDisplay } from "vuetify";
 
 const { name } = useDisplay();
