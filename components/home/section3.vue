@@ -20,7 +20,7 @@
     <v-row justify="space-between" class="mt-5">
       <v-col v-for="(card, i) in cards" :key="i" cols="12" sm="4">
         <v-card elevation="0">
-          <v-img :src="card.image" :lazy-src="card.lazy" cover />
+          <v-img :src="card.image" :lazy-src="card.lazy" class="rounded-lg" aspect-ratio="1.5" cover />
           <v-card-title class="text-grey-darken-3">
             {{ card.title }}
           </v-card-title>
@@ -60,7 +60,7 @@ const cards = ref([
     lazy: "https://res.cloudinary.com/rukkiecodes/image/upload/v1675307350/chriopractor/placeholder_lnnfrn.jpg",
     title: "Wellness Care",
     text: "We aim to enhance your health and wellness with our services, such as nutrition counseling, exercise advice, and lifestyle changes.",
-    to: "/services/services/acupuncture",
+    to: "/servicesPage",
   },
   {
     image:
@@ -68,7 +68,7 @@ const cards = ref([
     lazy: "https://res.cloudinary.com/rukkiecodes/image/upload/v1675307350/chriopractor/placeholder_lnnfrn.jpg",
     title: "Functional Medicine",
     text: "Our healthcare approach is holistic, considering your lifestyle, environment, and genetics. With functional medicine, we can identify underlying issues and create tailored treatment plans targeting the root cause of your health problems.",
-    to: "/services/services/spinalDecompression",
+    to: "/servicesPage",
   },
 ]);
 </script>

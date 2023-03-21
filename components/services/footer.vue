@@ -15,7 +15,7 @@
               the diagnosis and treatment of conditions which may not be detected
               by your regular physician.
               <v-card-actions class="px-0">
-                <v-btn to="/services/services/acupuncture" class="bg-white rounded-lg text-blue px-5">Acupuncture</v-btn>
+                <v-btn to="/services/acupuncture" class="bg-white rounded-lg text-blue px-5">Acupuncture</v-btn>
               </v-card-actions>
             </v-card-text>
           </v-card>

@@ -2,7 +2,7 @@
   <v-container>
     <v-row>
       <v-col cols="12" sm="3">
-        <v-img src="https://www.sedona-chiromatrix.com/storage/app/media/_SHARED/staff_1.jpg" aspect-ratio="1"
+        <v-img src="https://www.sedona-chiromatrix.com/storage/app/media/_SHARED/staff_1.jpg" class="rounded-lg" aspect-ratio="1"
           contain></v-img>
       </v-col>
 
@@ -25,14 +25,6 @@
           at Anderson Chiropractic Clinic, please call us at 800-462-8749 today!
         </v-card-text>
       </v-col>
-
-      <v-col cols="12">
-        <Map />
-      </v-col>
     </v-row>
   </v-container>
 </template>
-
-<script setup>
-import Map from '@/components/fragments/map.vue'
-</script>
