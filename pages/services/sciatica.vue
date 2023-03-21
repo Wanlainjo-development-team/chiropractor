@@ -3,7 +3,7 @@
     <v-row justify="space-between">
       <v-col cols="12" sm="4">
         <v-img src="https://res.cloudinary.com/rukkiecodes/image/upload/v1675895480/chriopractor/brost-dad-kid_hysylq.jpg"
-          class="rounded-lg" cover></v-img>
+          class="rounded-lg" aspect-ratio="1.5" cover></v-img>
       </v-col>
       <v-col cols="12" sm="8">
         <v-card flat>

@@ -11,45 +11,20 @@
     <v-divider class="my-5" />
 
     <v-row justify="space-between">
-      <v-col cols="12" sm="6">
+      <v-col cols="12" sm="6" v-for="(blog, i) in [blog.posts[0], blog.posts[1]]" :key="i">
         <v-card flat>
           <v-row justify="space-between" no-gutters>
-            <v-col cols="5">
+            <v-col cols="12" sm="5">
               <v-img
-                src="https://res.cloudinary.com/rukkiecodes/image/upload/v1675377310/chriopractor/Chiropractor-768x681_pn3eo9.webp"
+                :src="blog.image"
                 lazy-src="https://res.cloudinary.com/rukkiecodes/image/upload/v1675307350/chriopractor/placeholder_lnnfrn.jpg"
-                class="rounded-lg" cover />
+                class="rounded-lg" aspect-ratio="1.5" cover />
             </v-col>
-            <v-col cols="7">
+            <v-col cols="12" sm="7">
               <v-card flat>
-                <v-card-text class="text-body-2 font-weight-bold pb-0">After Car Accidents chriopractor: Why You Need To
-                  See
-                  One</v-card-text>
+                <v-card-text class="text-body-2 font-weight-bold pb-0">{{ blog.title }}</v-card-text>
                 <v-card-text>
-                  <span class="text-caption text-grey-darken-3">A chiropractor can treat injuries, reduce pain and improve
-                    mobility after a car accident, preventing further damage and long-term complications.</span>
-                </v-card-text>
-              </v-card>
-            </v-col>
-          </v-row>
-        </v-card>
-      </v-col>
-      <v-col cols="12" sm="6">
-        <v-card flat>
-          <v-row justify="space-between" no-gutters>
-            <v-col cols="5">
-              <v-img
-                src="https://res.cloudinary.com/rukkiecodes/image/upload/v1675377312/chriopractor/Chiropractic-Adjustment-768x800_mtcwxa.jpg"
-                lazy-src="https://res.cloudinary.com/rukkiecodes/image/upload/v1675307350/chriopractor/placeholder_lnnfrn.jpg"
-                class="rounded-lg" cover />
-            </v-col>
-            <v-col cols="7">
-              <v-card flat>
-                <v-card-text class="text-body-2 font-weight-bold pb-0 text-capitalize">The average const of chiropractic
-                  ajustments</v-card-text>
-                <v-card-text>
-                  <span class="text-caption text-grey-darken-3">The average cost of chiropractic adjustments can vary
-                    depending on factors such as location, duration, and number of sessions required.</span>
+                  <span class="text-caption text-grey-darken-3">{{ (blog.body).slice(1, 140) }}...</span>
                 </v-card-text>
               </v-card>
             </v-col>
@@ -59,3 +34,10 @@
     </v-row>
   </v-container>
 </template>
+
+
+<script setup>
+import { useBlogStore } from '@/store/blog'
+
+const blog = useBlogStore()
+</script>

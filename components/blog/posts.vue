@@ -4,7 +4,7 @@
       <v-col v-for="(post, index) in blog.posts" :key="index" cols="12">
         <v-row>
           <v-col cols="12" sm="3">
-            <v-img :src="post.image" :alt="post.title" class="rounded-lg" />
+            <v-img :src="post.image" :alt="post.title" class="rounded-lg" aspect-ratio="1.5" cover />
           </v-col>
           <v-col cols="12" sm="9">
             <v-card flat>

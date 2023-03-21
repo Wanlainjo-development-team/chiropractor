@@ -1,5 +1,5 @@
 <template>
-  <v-container>
+  <v-container class="mt-16">
     <v-row justify="space-between">
       <v-col cols="12" sm="4">
         <v-img src="https://res.cloudinary.com/rukkiecodes/image/upload/v1675902822/chriopractor/acupuncture-640w_ltvyrc.jpg" aspect-ratio="1.5" contain></v-img>

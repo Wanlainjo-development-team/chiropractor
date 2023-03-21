@@ -3,7 +3,7 @@
     <v-row justify="space-between">
       <v-col v-for="(card, i) in cards" :key="i" cols="12" sm="4">
         <v-card class="mx-auto" elevation="0" max-width="344" color="white">
-          <v-img :src="card.image" :lazy-src="card.lazy" height="200px" cover />
+          <v-img :src="card.image" :lazy-src="card.lazy" class="rounded-lg" aspect-ratio="1.5" cover />
           <v-card-title class="text-grey-darken-3 font-weight-bold">{{
             card.title
           }}</v-card-title>
@@ -37,7 +37,7 @@ const cards = [
     lazy: "https://res.cloudinary.com/rukkiecodes/image/upload/v1675307350/chriopractor/placeholder_lnnfrn.jpg",
     title: "Low Back Pain",
     text: "Low back pain affects over 75% of adults and is a very common problem. Chiropractic joint manipulation helps.",
-    to: '/services/services/backPainTreatment'
+    to: '/services/backPainTreatment'
   },
   {
     image:
@@ -45,7 +45,7 @@ const cards = [
     lazy: "https://res.cloudinary.com/rukkiecodes/image/upload/v1675307350/chriopractor/placeholder_lnnfrn.jpg",
     title: "Neck Pain",
     text: "Neck pain comes in several forms: Acute and Chronic. Caused by pressure building on the cervical nerves.",
-    to: '/services/services/neckPain'
+    to: '/services/neckPain'
   },
   {
     image:
@@ -53,7 +53,7 @@ const cards = [
     lazy: "https://res.cloudinary.com/rukkiecodes/image/upload/v1675307350/chriopractor/placeholder_lnnfrn.jpg",
     title: "Car Accident Injuries",
     text: "The proven combination of chiropractic adjustments and rehab training ensures great outcomes.",
-    to: '/services/services/carAccidentInjury'
+    to: '/services/carAccidentInjury'
   },
 ];
 </script>

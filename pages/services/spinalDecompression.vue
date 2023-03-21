@@ -4,7 +4,7 @@
       <v-col cols="12" sm="4">
         <v-img
           src="https://res.cloudinary.com/rukkiecodes/image/upload/v1675904754/chriopractor/Chiropractors-TheBrost-Wayzata-spinal-decompression2-sm_ofytvx.jpg"
-          class="rounded-lg" cover></v-img>
+          class="rounded-lg" aspect-ratio="1.5" cover></v-img>
       </v-col>
       <v-col cols="12" sm="8">
         <v-card flat>

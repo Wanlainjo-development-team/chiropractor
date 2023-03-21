@@ -2,7 +2,7 @@
   <v-container>
     <v-row>
       <v-col cols="12" sm="3">
-        <v-img src="https://www.sedona-chiromatrix.com/storage/app/media/_SHARED/staff_1.jpg" aspect-ratio="1"
+        <v-img src="https://www.sedona-chiromatrix.com/storage/app/media/_SHARED/staff_1.jpg" class="rounded-lg" aspect-ratio="1"
           contain></v-img>
       </v-col>
 

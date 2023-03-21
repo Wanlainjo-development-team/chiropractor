@@ -3,7 +3,7 @@
     <v-row justify="space-between">
       <v-col cols="12" sm="5">
         <v-card flat class="pa-0 ma-0 rounded-0" color="transparent">
-          <v-img cover class="pa-0 ma-0 d-flex align-center text-center"
+          <v-img cover class="rounded-lg" aspect-ratio="1.5"
             src="https://res.cloudinary.com/rukkiecodes/image/upload/v1675876242/chriopractor/Chiropractors-TheBrost-Wayzata-011-2880w_hx3r1r.jpg" />
         </v-card>
       </v-col>

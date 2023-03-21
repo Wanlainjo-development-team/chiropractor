@@ -2,7 +2,7 @@
   <v-container class="mt-16">
     <v-row justify="space-between">
       <v-col cols="12" sm="4">
-        <v-img src="https://res.cloudinary.com/rukkiecodes/image/upload/v1675904297/chriopractor/Chiropractors-TheBrost-Wayzata-chiropractic-massage_w9j2ly.jpg" class="rounded-lg" cover></v-img>
+        <v-img src="https://res.cloudinary.com/rukkiecodes/image/upload/v1675904297/chriopractor/Chiropractors-TheBrost-Wayzata-chiropractic-massage_w9j2ly.jpg" class="rounded-lg" aspect-ratio="1.5" cover></v-img>
       </v-col>
       <v-col cols="12" sm="8">
         <v-card flat>

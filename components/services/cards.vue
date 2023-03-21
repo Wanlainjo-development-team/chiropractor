@@ -1,38 +1,25 @@
 <template>
   <v-container>
     <v-row>
-      <v-col v-for="(card, i) in cards" :key="i" cols="12" sm="6" md="4">
+      <v-col v-for="(card, i) in [...drawer.routes[1].subMenus[0].routes, ...drawer.routes[1].subMenus[1].routes]" :key="i" cols="12" sm="6" md="4">
         <v-hover>
           <template v-slot:default="{ isHovering, props }">
-            <v-card
-              v-bind="props"
-              :style="{
-                border: isHovering
-                  ? '4px solid #3BA2F4'
-                  : '4px solid transparent',
-                transition: 'all .25s ease',
-              }"
-              flat
-              class="rounded-lg"
-            >
-              <v-card-title
-                class="font-weight-bold text-grey-darken-3 d-flex align-center"
-              >
-                <v-icon
-                  class="mr-2"
-                  color="blue"
-                  style="transition: all 0.25s ease"
-                  >mdi-checkbox-outline</v-icon
-                >
-                {{ card.title }}</v-card-title
-              >
+            <v-card v-bind="props" :style="{
+              border: isHovering
+                ? '4px solid #3BA2F4'
+                : '4px solid transparent',
+              transition: 'all .25s ease',
+            }" flat class="rounded-lg">
+              <v-card-title class="font-weight-bold text-grey-darken-3 d-flex align-center">
+                <v-icon class="mr-2" color="blue" style="transition: all 0.25s ease">mdi-checkbox-outline</v-icon>
+                {{ card.title }}</v-card-title>
               <v-card-text>
                 <span class="text-grey-darken-3">
-                  {{ card.text }}
+                  {{ card.text.slice(0, 120) }}
                 </span>
               </v-card-text>
               <v-card-actions class="pt-0">
-                <v-btn class="text-body-1 text-capitalize text-blue" color="blue">View More</v-btn>
+                <v-btn :to="card.to" class="text-body-1 text-capitalize text-blue" color="blue">View More</v-btn>
               </v-card-actions>
             </v-card>
           </template>
@@ -44,6 +31,9 @@
 
 <script setup>
 import { ref } from "vue";
+import { useDraerStore } from "@/store/drawer";
+
+const drawer = useDraerStore();
 
 const cards = ref([
   {
