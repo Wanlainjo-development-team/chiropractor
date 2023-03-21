@@ -1,15 +1,15 @@
 <template>
-  <v-container>
+  <v-container class="mt-16">
     <v-row justify="space-between">
-      <v-col v-for="(imageCard, i) in imageCards" :key="i" cols="12" sm="6">
-        <v-img :src="imageCard" aspect-ratio="1.5" contain></v-img>
+      <v-col cols="12" sm="4">
+        <v-img
+          src="https://res.cloudinary.com/rukkiecodes/image/upload/v1675905155/chriopractor/Chiropractors-TheBrost-Wayzata-rehab_tj5nqm.jpg"
+          class="rounded-lg" cover></v-img>
       </v-col>
-      <v-col cols="12">
+      <v-col cols="12" sm="8">
         <v-card flat>
-          <v-card-title
-            class="text-grey-darken-3 font-weight-bold text-h6 text-lg-h5"
-            >Injury Rehab in Wayzata, MN</v-card-title
-          >
+          <v-card-title class="text-grey-darken-3 font-weight-bold text-h6 text-lg-h5">Injury Rehab in Wayzata,
+            MN</v-card-title>
           <v-card-text class="text-body-2 text-grey-darken-4">
             We offer our patients various options when it comes to therapeutic
             exercise and personal training. Rehab has been shown to help the
@@ -18,10 +18,8 @@
             customized to every individual patient’s conditions and
             requirements.
           </v-card-text>
-          <v-card-title
-            class="text-grey-darken-3 font-weight-bold text-h6 text-lg-h5"
-            >Therapeutic Exercise and Rehab</v-card-title
-          >
+          <v-card-title class="text-grey-darken-3 font-weight-bold text-h6 text-lg-h5">Therapeutic Exercise and
+            Rehab</v-card-title>
           <v-card-text class="text-body-2 text-grey-darken-4">
             Chiropractors sometimes recommend therapeutic exercise as part of a
             treatment plan. This will involve spending some time with a
@@ -36,16 +34,11 @@
   </v-container>
 </template>
   
-  <script setup>
+<script setup>
 import { useServicesStore } from "@/store/service";
 import { ref, onMounted } from "vue";
 
 const current = useServicesStore();
-
-const imageCards = ref([
-  "https://res.cloudinary.com/rukkiecodes/image/upload/v1675905155/chriopractor/Chiropractors-TheBrost-Wayzata-rehab_tj5nqm.jpg",
-  "https://res.cloudinary.com/rukkiecodes/image/upload/v1675809167/chriopractor/aarehab-room_zzltt2.jpg",
-]);
 
 const lists = ref([
   "Disc Herniations",

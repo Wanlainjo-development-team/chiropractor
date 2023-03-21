@@ -1,20 +1,16 @@
 <template>
-  <v-container>
+  <v-container class="mt-16">
     <v-row justify="space-between">
-      <v-col v-for="(imageCard, i) in imageCards" :key="i" cols="12">
-        <v-img :src="imageCard" aspect-ratio="1.5" contain></v-img>
+      <v-col cols="12" sm="4">
+        <v-img
+          src="https://res.cloudinary.com/rukkiecodes/image/upload/v1675896484/chriopractor/Chiropractors-TheBrost-Wayzata-013-2880w_q2tavs.jpg"
+          class="rounded-lg" cover></v-img>
       </v-col>
-      <v-col cols="12">
+      <v-col cols="12" sm="8">
         <v-card flat>
-          <v-card-title
-            class="text-grey-darken-3 font-weight-bold text-h6 text-lg-h5"
-            >{{ pageTexts.title }}</v-card-title
-          >
-          <v-card-text
-            v-for="(text, i) in pageTexts.text"
-            :key="i"
-            class="text-body-2 text-grey-darken-4"
-          >
+          <v-card-title class="text-grey-darken-3 font-weight-bold text-h6 text-lg-h5">{{ pageTexts.title
+          }}</v-card-title>
+          <v-card-text v-for="(text, i) in pageTexts.text" :key="i" class="text-body-2 text-grey-darken-4">
             {{ text }}
           </v-card-text>
         </v-card>
@@ -23,7 +19,7 @@
   </v-container>
 </template>
   
-  <script setup>
+<script setup>
 import { useServicesStore } from "@/store/service";
 import { ref, onMounted } from "vue";
 

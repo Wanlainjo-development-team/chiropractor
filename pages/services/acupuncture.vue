@@ -1,10 +1,10 @@
 <template>
   <v-container>
     <v-row justify="space-between">
-      <v-col v-for="(imageCard, i) in imageCards" :key="i" cols="12" sm="6">
-        <v-img :src="imageCard" aspect-ratio="1.5" contain></v-img>
+      <v-col cols="12" sm="4">
+        <v-img src="https://res.cloudinary.com/rukkiecodes/image/upload/v1675902822/chriopractor/acupuncture-640w_ltvyrc.jpg" aspect-ratio="1.5" contain></v-img>
       </v-col>
-      <v-col cols="12">
+      <v-col cols="12" sm="8">
         <v-card flat>
           <v-card-title
             class="text-grey-darken-3 font-weight-bold text-h6 text-lg-h5"
@@ -72,7 +72,7 @@
                 v-for="(expansion, i) in expansion1"
                 :key="i"
                 elevation="0"
-                color="blue"
+                color="blue-lighten-5"
                 :title="expansion.title"
                 :text="expansion.text"
               >
@@ -90,11 +90,6 @@ import { useServicesStore } from "@/store/service";
 import { ref, onMounted } from "vue";
 
 const current = useServicesStore();
-
-const imageCards = ref([
-  "https://res.cloudinary.com/rukkiecodes/image/upload/v1675902822/chriopractor/acupuncture-640w_ltvyrc.jpg",
-  "https://res.cloudinary.com/rukkiecodes/image/upload/v1675902821/chriopractor/acupuncture1-640w_kgc9zh.jpg",
-]);
 
 const expansion1 = ref([
   {

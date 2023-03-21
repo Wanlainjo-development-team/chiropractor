@@ -1,15 +1,15 @@
 <template>
-  <v-container>
+  <v-container class="mt-16">
     <v-row justify="space-between">
-      <v-col v-for="(imageCard, i) in imageCards" :key="i" cols="12" sm="6">
-        <v-img :src="imageCard" aspect-ratio="1.5" contain></v-img>
+      <v-col cols="12" sm="4">
+        <v-img
+          src="https://res.cloudinary.com/rukkiecodes/image/upload/v1675904754/chriopractor/Chiropractors-TheBrost-Wayzata-spinal-decompression2-sm_ofytvx.jpg"
+          class="rounded-lg" cover></v-img>
       </v-col>
-      <v-col cols="12">
+      <v-col cols="12" sm="8">
         <v-card flat>
-          <v-card-title
-            class="text-grey-darken-3 font-weight-bold text-h6 text-lg-h5"
-            >Spinal Decompression Treatment in Wayzata, MN</v-card-title
-          >
+          <v-card-title class="text-grey-darken-3 font-weight-bold text-h6 text-lg-h5">Spinal Decompression Treatment in
+            Wayzata, MN</v-card-title>
           <v-card-text class="text-body-2 text-grey-darken-4">
             Back or neck surgery can be costly in more ways than one,
             considering there are several risks associated with these
@@ -21,25 +21,16 @@
             leading medical experts and has shown high degrees of success in
             treating even the most difficult and long-standing back conditions.
           </v-card-text>
-          <v-card-title
-            class="text-grey-darken-3 font-weight-bold text-h6 text-lg-h5"
-            >Spinal Decompression</v-card-title
-          >
+          <v-card-title class="text-grey-darken-3 font-weight-bold text-h6 text-lg-h5">Spinal Decompression</v-card-title>
           <v-card-text class="text-body-2 text-grey-darken-4">
             Spinal decompression has been used to treat various back and lumbar
             conditions, such as:
           </v-card-text>
           <v-card-text>
-            <v-row no-gutters>
-              <v-col
-                v-for="(item, i) in lists"
-                :key="i"
-                cols="12"
-                sm="4"
-                class="pa-0 bg-red"
-              >
+            <v-row dense>
+              <v-col v-for="(item, i) in lists" :key="i" cols="12" sm="4" class="pa-0 bg-red">
                 <v-list density="compact">
-                  <v-list-item>
+                  <v-list-item density="compact">
                     <template v-slot:prepend>
                       <v-icon color="blue">mdi-arrow-right-circle</v-icon>
                     </template>
@@ -64,10 +55,8 @@
             patients relax completely, and some even fall asleep during the
             treatment.
           </v-card-text>
-          <v-card-title
-            class="text-grey-darken-3 font-weight-bold text-h6 text-lg-h5"
-            >Post-Treatment and Care</v-card-title
-          >
+          <v-card-title class="text-grey-darken-3 font-weight-bold text-h6 text-lg-h5">Post-Treatment and
+            Care</v-card-title>
           <v-card-text class="text-body-2 text-grey-darken-4">
             After the session on the spinal decompression session, ice and
             electrical muscle stimulation or infrared laser are applied to the
@@ -91,16 +80,11 @@
   </v-container>
 </template>
   
-  <script setup>
+<script setup>
 import { useServicesStore } from "@/store/service";
 import { ref, onMounted } from "vue";
 
 const current = useServicesStore();
-
-const imageCards = ref([
-  "https://res.cloudinary.com/rukkiecodes/image/upload/v1675332828/chriopractor/room3_gelmba.jpg",
-  "https://res.cloudinary.com/rukkiecodes/image/upload/v1675904754/chriopractor/Chiropractors-TheBrost-Wayzata-spinal-decompression2-sm_ofytvx.jpg",
-]);
 
 const lists = ref([
   "Disc Herniations",

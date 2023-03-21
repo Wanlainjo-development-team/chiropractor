@@ -1,6 +1,6 @@
 <template>
-  <v-card position="fixed" class="pa-0 pa-lg-4" max-width="100%" width="100%" color="transparent" style="z-index: 100 !important;"
-    flat>
+  <v-card position="fixed" class="pa-0 pa-lg-4" max-width="100%" width="100%" color="transparent"
+    style="z-index: 100 !important;" flat>
     <v-toolbar class="rounded-lg" color="white">
       <v-toolbar-title>
         <v-img cover width="300" aspect-ratio="1.5"
@@ -10,14 +10,14 @@
       <v-spacer />
 
       <v-btn variant="text" class="
-                    text-body-2
-                    font-weight-regular
-                    text-capitalize
-                    hidden-md-and-down
-                    ml-2
-                    rounded-lg
-                  " v-for="(route, i) in drawer.routes" :key="i" :to="route.to">
-                  {{ route.title }}
+                        text-body-2
+                        font-weight-regular
+                        text-capitalize
+                        hidden-md-and-down
+                        ml-2
+                        rounded-lg
+                      " v-for="(route, i) in drawer.routes" :key="i" :to="route.to">
+        {{ route.title }}
 
         <v-menu v-if="route.title == 'Services'" activator="parent" open-on-hover>
           <v-card width="800" flat class="rounded-lg">
@@ -31,7 +31,7 @@
                       {{ subMenu.title }}
                     </v-list-item-title>
                     <v-list-item v-for="(route, i) in subMenu.routes" :key="i" :to="route.to" density="compact"
-                      class="bg-white rounded-lg">
+                      class="bg-white rounded-lg mb-2">
                       <v-list-item-title class="text-body-2 text-grey-darken-3">{{
                         route.title
                       }}</v-list-item-title>
@@ -45,14 +45,14 @@
       </v-btn>
 
       <v-btn to="/contact" class="
-                    bg-blue
-                    mx-2
-                    mr-lg-4
-                    font-weight-bold
-                    text-body-2 text-capitalize
-                    hidden-sm-and-down
-                    rounded-lg
-                  ">Contact</v-btn>
+                        bg-blue
+                        mx-2
+                        mr-lg-4
+                        font-weight-bold
+                        text-body-2 text-capitalize
+                        hidden-sm-and-down
+                        rounded-lg
+                      ">Contact</v-btn>
       <v-app-bar-nav-icon @click="drawer.drawer = !drawer.drawer" variant="text"
         class="hidden-lg-and-up ml-2 rounded-lg" />
     </v-toolbar>

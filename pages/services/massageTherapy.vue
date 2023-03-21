@@ -1,10 +1,10 @@
 <template>
-  <v-container>
+  <v-container class="mt-16">
     <v-row justify="space-between">
-      <v-col v-for="(imageCard, i) in imageCards" :key="i" cols="12">
-        <v-img :src="imageCard" aspect-ratio="1.5" contain></v-img>
+      <v-col cols="12" sm="4">
+        <v-img src="https://res.cloudinary.com/rukkiecodes/image/upload/v1675904297/chriopractor/Chiropractors-TheBrost-Wayzata-chiropractic-massage_w9j2ly.jpg" class="rounded-lg" cover></v-img>
       </v-col>
-      <v-col cols="12">
+      <v-col cols="12" sm="8">
         <v-card flat>
           <v-card-title
             class="text-grey-darken-3 font-weight-bold text-h6 text-lg-h5"
@@ -27,7 +27,7 @@
             treating different sources of pain. Massage techniques include:
           </v-card-text>
           <v-card-text>
-            <v-row no-gutters>
+            <v-row dense>
               <v-col
                 v-for="(item, i) in lists"
                 :key="i"
@@ -36,7 +36,7 @@
                 class="pa-0 bg-red"
               >
                 <v-list density="compact">
-                  <v-list-item>
+                  <v-list-item density="compact">
                     <template v-slot:prepend>
                       <v-icon color="blue">mdi-arrow-right-circle</v-icon>
                     </template>
