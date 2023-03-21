@@ -28,13 +28,6 @@
                 "
                 >Services</span
               >
-              <v-btn
-                color="blue"
-                flat
-                class="mt-4 text-body-2 font-weight-bold text-capitalize rounded-lg"
-                to="/contact"
-                >Make an appointment</v-btn
-              >
             </v-card-text>
           </v-card>
         </v-container>

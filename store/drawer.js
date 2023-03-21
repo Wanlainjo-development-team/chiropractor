@@ -14,7 +14,7 @@ export const useDraerStore = defineStore('websiteDraer', {
             {
                 title: 'Services',
                 icon: 'mdi-room-service',
-                to: '/servicesPage',
+                to: '/services',
                 menu: true,
                 subMenus: [
                     {
@@ -22,31 +22,31 @@ export const useDraerStore = defineStore('websiteDraer', {
                         routes: [
                             {
                                 title: 'Back Pain Treatment',
-                                to: '/services/services/backPainTreatment'
+                                to: '/services/backPainTreatment'
                             },
                             {
                                 title: 'Neck Pain',
-                                to: '/services/services/neckPain'
+                                to: '/services/neckPain'
                             },
                             {
                                 title: 'Headache Treatment',
-                                to: '/services/services/headacheTreatment'
+                                to: '/services/headacheTreatment'
                             },
                             {
                                 title: 'Sciatica',
-                                to: '/services/services/sciatica'
+                                to: '/services/sciatica'
                             },
                             {
                                 title: 'Lower Extremity Pain',
-                                to: '/services/services/lowerExtremityPain'
+                                to: '/services/lowerExtremityPain'
                             },
                             {
                                 title: 'Upper Extremity Pain',
-                                to: '/services/services/upperExtremityPain'
+                                to: '/services/upperExtremityPain'
                             },
                             {
                                 title: 'Car Accident Injuries',
-                                to: '/services/services/carAccidentInjury'
+                                to: '/services/carAccidentInjury'
                             },
                         ]
                     },
@@ -55,19 +55,19 @@ export const useDraerStore = defineStore('websiteDraer', {
                         routes: [
                             {
                                 title: "Acupuncture",
-                                to: "/services/services/acupuncture",
+                                to: "/services/acupuncture",
                             },
                             {
                                 title: "Massage Therapy",
-                                to: "/services/services/massageTherapy",
+                                to: "/services/massageTherapy",
                             },
                             {
                                 title: "Spinal Decompression",
-                                to: "/services/services/spinalDecompression",
+                                to: "/services/spinalDecompression",
                             },
                             {
                                 title: "Rehabilitation",
-                                to: "/services/services/rehabilitation",
+                                to: "/services/rehabilitation",
                             },
                         ]
                     }
@@ -89,12 +89,6 @@ export const useDraerStore = defineStore('websiteDraer', {
                 title: 'Blog',
                 icon: 'mdi-book-open-page-variant',
                 to: '/blog',
-                menu: false
-            },
-            {
-                title: 'Contact',
-                icon: 'mdi-account-voice',
-                to: '/contact',
                 menu: false
             }
         ]

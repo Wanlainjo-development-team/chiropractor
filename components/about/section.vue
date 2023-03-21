@@ -25,14 +25,6 @@
           at Anderson Chiropractic Clinic, please call us at 800-462-8749 today!
         </v-card-text>
       </v-col>
-
-      <v-col cols="12">
-        <Map />
-      </v-col>
     </v-row>
   </v-container>
 </template>
-
-<script setup>
-import Map from '@/components/fragments/map.vue'
-</script>

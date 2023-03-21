@@ -20,7 +20,7 @@
                   {{ route.title }}
 
         <v-menu v-if="route.title == 'Services'" activator="parent" open-on-hover>
-          <v-card width="800" flat class="rounded-0">
+          <v-card width="800" flat class="rounded-lg">
             <v-card-text>
               <v-row justify="start">
                 <v-col v-for="(subMenu, i) in route.subMenus" :key="i" cols="12" sm="6" :style="{
@@ -31,7 +31,7 @@
                       {{ subMenu.title }}
                     </v-list-item-title>
                     <v-list-item v-for="(route, i) in subMenu.routes" :key="i" :to="route.to" density="compact"
-                      class="bg-white">
+                      class="bg-white rounded-lg">
                       <v-list-item-title class="text-body-2 text-grey-darken-3">{{
                         route.title
                       }}</v-list-item-title>
@@ -52,7 +52,7 @@
                     text-body-2 text-capitalize
                     hidden-sm-and-down
                     rounded-lg
-                  ">Make an appointment</v-btn>
+                  ">Contact</v-btn>
       <v-app-bar-nav-icon @click="drawer.drawer = !drawer.drawer" variant="text"
         class="hidden-lg-and-up ml-2 rounded-lg" />
     </v-toolbar>
