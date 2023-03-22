@@ -40,8 +40,8 @@ import ContactForm from "@/components/fragments/contactForm.vue";
 const contactInfo = ref([
   {
     icon: "mdi-map-marker",
-    title: "1421 Wayzata Blvd E. Suite 100",
-    subtitle: "Wayzata, MN 55391",
+    title: "7420 Unity Ave North Suite 204",
+    subtitle: "Brooklyn Park MN 55443",
   },
   {
     icon: "mdi-email",

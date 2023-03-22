@@ -14,7 +14,7 @@
         <v-card flat>
           <v-card-title>Location</v-card-title>
           <v-card-subtitle class="font-weight-bold">Address</v-card-subtitle>
-          <v-card-text class="pt-0">1421 Wayzata Blvd #100, Wayzata,<br>MN 55391, United States</v-card-text>
+          <v-card-text class="pt-0">7420 Unity Ave North Suite 204,<br />Brooklyn Park MN 55443</v-card-text>
           <v-card-subtitle class="font-weight-bold">Phone</v-card-subtitle>
           <v-card-text class="pt-0"><a href="tel:+1-612-296-5143"
               class="text-decoration-none text-grey-darken-4">+1-612-296-5143</a></v-card-text>
@@ -92,8 +92,7 @@
           <v-card color="transparent" flat>
             <v-card-title class="font-weight-bold text-center text-sm-left">Contact Info</v-card-title>
             <v-card-text class="text-body-2 text-center text-sm-left">
-              Metronet Chiropractic Clinic Ltd. <br />
-              1421 Wayzata Blvd #100, Wayzata, MN 55391, United States
+              7420 Unity Ave North Suite 204,<br />Brooklyn Park MN 55443
               <br />
               <br />
               Phone:
