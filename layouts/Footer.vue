@@ -109,7 +109,7 @@
               <br />
               <span @click="
                 redirect(
-                  'https://www.google.com/maps/place/1421+Wayzata+Blvd+%23+100,+Wayzata,+MN+55391,+USA/@44.9716411,-93.4965792,17z/data=!3m1!4b1!4m5!3m4!1s0x52b34b6597a903a7:0x868f61454e06b908!8m2!3d44.9716373!4d-93.4943905'
+                  'https://www.google.com/maps/dir//7420+Unity+Ave+N+%23204+Minneapolis,+MN+55443+USA/@45.0899191,-93.351928,16z/data=!4m5!4m4!1m0!1m2!1m1!1s0x52b330b267e2825d:0xe177716d6c488a10'
                 )
               " class="text-white" style="cursor: pointer">Find Us on Google Maps</span>
             </v-card-text>
