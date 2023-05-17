@@ -15,7 +15,7 @@ export default defineNuxtConfig({
 
     app: {
         head: {
-            title: 'Your Custom Title',
+            title: 'Metronet Chiropractic Clinic',
             charset: 'utf-8',
             viewport: 'width=device-width, initial-scale=1',
             link: [
