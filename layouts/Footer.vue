@@ -111,7 +111,7 @@
                 redirect(
                   'https://www.google.com/maps/dir//7420+Unity+Ave+N+%23204+Minneapolis,+MN+55443+USA/@45.0899191,-93.351928,16z/data=!4m5!4m4!1m0!1m2!1m1!1s0x52b330b267e2825d:0xe177716d6c488a10'
                 )
-              " class="text-white" style="cursor: pointer">Find Us on Google Maps</span>
+                " class="text-white" style="cursor: pointer">Find Us on Google Maps</span>
             </v-card-text>
           </v-card>
         </v-col>
@@ -142,6 +142,11 @@
           </v-card>
         </v-col>
       </v-row>
+      <v-card rounded="lg" flat color="blue-darken-4">
+        <v-card-text>
+          © {{ new Date().getFullYear() }} Wanlainjo Groups
+        </v-card-text>
+      </v-card>
     </v-container>
   </v-footer>
 </template>
